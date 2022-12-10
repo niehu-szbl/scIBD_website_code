@@ -1,0 +1,9 @@
+Myeloid	/data/niehu/scIBD/data/scenic/Myeloid.pyscenic_output.updated.loom
+CD4T	/data/niehu/scIBD/data/scenic/CD4T.pyscenic_output.updated.loom
+CD8T	/data/niehu/scIBD/data/scenic/CD8T.pyscenic_output.updated.loom
+ILC	/data/niehu/scIBD/data/scenic/ILC.pyscenic_output.updated.loom
+B_Plasma	/data/niehu/scIBD/data/scenic/B_plasma.pyscenic_output.updated.loom
+Mesenchymal	/data/niehu/scIBD/data/scenic/Mesenchymal.pyscenic_output.updated.loom
+Epithelial	/data/niehu/scIBD/data/scenic/Epithelial.pyscenic_output.updated.loom
+Endothelial	/data/niehu/scIBD/data/scenic/Endothelial.pyscenic_output.updated.loom
+Neuronal	/data/niehu/scIBD/data/scenic/Neuronal.pyscenic_output.updated.loom

@@ -1,0 +1,528 @@
+sampleName,subjectName,gender,location1,location2,location3,age,developmentStage,platform,disease,study,data_source
+GSM3576396,C9,,largeInt,rectum,,18+,adult,10X_5',Healthy,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM3576397,C12,,largeInt,rectum,,18+,adult,10X_5',Healthy,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM3576398,C16,,largeInt,rectum,,18+,adult,10X_5',Healthy,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM3576399,U4,,largeInt,rectum,,18+,adult,10X_5',UC_inflamed,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM3576400,U5,,largeInt,rectum,,18+,adult,10X_5',UC_inflamed,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM3576401,U34,,largeInt,rectum,,18+,adult,10X_5',UC_inflamed,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM3576402,U35,,largeInt,rectum,,18+,adult,10X_5',UC_inflamed,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM3576403,U41,,largeInt,rectum,,18+,adult,10X_5',UC_inflamed,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM3576404,U44,,largeInt,rectum,,18+,adult,10X_5',UC_inflamed,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM3576405,U45,,largeInt,rectum,,18+,adult,10X_5',UC_inflamed,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM3576406,C17,,largeInt,rectum,,18+,adult,10X_5',Healthy,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM3576407,C18,,largeInt,rectum,,18+,adult,10X_5',Healthy,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM3576408,C19,,largeInt,rectum,,18+,adult,10X_5',Healthy,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM3576409,C21,,largeInt,rectum,,18+,adult,10X_5',Healthy,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM3576410,C30,,largeInt,rectum,,18+,adult,10X_5',Healthy,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM3576411,C12,,blood,PBMC,PBMC,18+,adult,10X_5',Healthy_PBMC,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM3576412,C16,,blood,PBMC,PBMC,18+,adult,10X_5',Healthy_PBMC,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM3576413,U4,,blood,PBMC,PBMC,18+,adult,10X_5',UC_PBMC,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM3576414,U5,,blood,PBMC,PBMC,18+,adult,10X_5',UC_PBMC,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM3576415,U34,,blood,PBMC,PBMC,18+,adult,10X_5',UC_PBMC,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM3576416,U35,,blood,PBMC,PBMC,18+,adult,10X_5',UC_PBMC,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM3576417,U41,,blood,PBMC,PBMC,18+,adult,10X_5',UC_PBMC,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM3576418,U44,,blood,PBMC,PBMC,18+,adult,10X_5',UC_PBMC,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM3576419,U45,,blood,PBMC,PBMC,18+,adult,10X_5',UC_PBMC,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM3576420,C17,,blood,PBMC,PBMC,18+,adult,10X_5',Healthy_PBMC,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM3576421,C18,,blood,PBMC,PBMC,18+,adult,10X_5',Healthy_PBMC,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM3576422,C19,,blood,PBMC,PBMC,18+,adult,10X_5',Healthy_PBMC,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM3576423,C21,,blood,PBMC,PBMC,18+,adult,10X_5',Healthy_PBMC,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM3576424,C30,,blood,PBMC,PBMC,18+,adult,10X_5',Healthy_PBMC,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM3576425,C33,,blood,PBMC,PBMC,18+,adult,10X_5',Healthy_PBMC,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM3576426,C17,,ileum,ileum,,18+,adult,10X_5',Healthy,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM3576427,C18,,ileum,ileum,,18+,adult,10X_5',Healthy,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM3576428,C19,,ileum,ileum,,18+,adult,10X_5',Healthy,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM3576429,C21,,ileum,ileum,,18+,adult,10X_5',Healthy,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM3576430,C30,,ileum,ileum,,18+,adult,10X_5',Healthy,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM3576431,C33,,ileum,ileum,,18+,adult,10X_5',Healthy,John.T.Chang_2020SciImmunol_uc,GSE125527
+GSM4766839,donor_7420,,smallInt,terminal ileum,LP,,adult,10X_3'_V3,Healthy,Macroterminal ileumna_2021NC_cd_Tcell,GSE157477
+GSM4766840,donor_1425,,smallInt,terminal ileum,LP,,adult,10X_3'_V3,Healthy,Macroterminal ileumna_2021NC_cd_Tcell,GSE157477
+GSM4766841,donor_1813,,smallInt,terminal ileum,LP,,adult,10X_3'_V3,CD_inflamed,Macroterminal ileumna_2021NC_cd_Tcell,GSE157477
+GSM4766842,donor_1813,,smallInt,terminal ileum,LP,,adult,10X_3'_V3,CD_non_inflamed,Macroterminal ileumna_2021NC_cd_Tcell,GSE157477
+GSM4766843,donor 1818,,smallInt,terminal ileum,LP,,adult,10X_3'_V3,CD_inflamed,Macroterminal ileumna_2021NC_cd_Tcell,GSE157477
+GSM4766844,donor_1818,,smallInt,terminal ileum,LP,,adult,10X_3'_V3,CD_non_inflamed,Macroterminal ileumna_2021NC_cd_Tcell,GSE157477
+GSM4766845,donor_7420,,smallInt,terminal ileum,IEL,,adult,10X_3'_V3,Healthy,Macroterminal ileumna_2021NC_cd_Tcell,GSE157477
+GSM4766846,donor_1425,,smallInt,terminal ileum,IEL,,adult,10X_3'_V3,Healthy,Macroterminal ileumna_2021NC_cd_Tcell,GSE157477
+GSM4766847,donor_1813,,smallInt,terminal ileum,IEL,,adult,10X_3'_V3,CD_inflamed,Macroterminal ileumna_2021NC_cd_Tcell,GSE157477
+GSM4766848,donor_1813,,smallInt,terminal ileum,IEL,,adult,10X_3'_V3,CD_non_inflamed,Macroterminal ileumna_2021NC_cd_Tcell,GSE157477
+GSM4766849,donor_1818,,smallInt,terminal ileum,IEL,,adult,10X_3'_V3,CD_inflamed/CD_non_inflamed,Macroterminal ileumna_2021NC_cd_Tcell,GSE157477
+GSM3972009,GSE134809_pat. 5,10M4F,smallInt,ileum,LP,32.7±12.9,adult,10X_3'_V1,CD_inflamed,EphraimKenigsberg_2019Cell_cd,GSE134809
+GSM3972010,GSE134809_pat. 5,10M4F,smallInt,ileum,LP,32.7±12.9,adult,10X_3'_V1,CD_non_inflamed,EphraimKenigsberg_2019Cell_cd,GSE134809
+GSM3972011,GSE134809_pat. 6,10M4F,smallInt,ileum,LP,32.7±12.9,adult,10X_3'_V2,CD_inflamed,EphraimKenigsberg_2019Cell_cd,GSE134809
+GSM3972012,GSE134809_pat. 6,10M4F,smallInt,ileum,LP,32.7±12.9,adult,10X_3'_V2,CD_non_inflamed,EphraimKenigsberg_2019Cell_cd,GSE134809
+GSM3972013,GSE134809_pat. 7,10M4F,smallInt,ileum,LP,32.7±12.9,adult,10X_3'_V2,CD_inflamed,EphraimKenigsberg_2019Cell_cd,GSE134809
+GSM3972014,GSE134809_pat. 7,10M4F,smallInt,ileum,LP,32.7±12.9,adult,10X_3'_V2,CD_non_inflamed,EphraimKenigsberg_2019Cell_cd,GSE134809
+GSM3972015,GSE134809_pat. 8,10M4F,smallInt,ileum,LP,32.7±12.9,adult,10X_3'_V2,CD_non_inflamed,EphraimKenigsberg_2019Cell_cd,GSE134809
+GSM3972016,GSE134809_pat. 8,10M4F,smallInt,ileum,LP,32.7±12.9,adult,10X_3'_V2,CD_inflamed,EphraimKenigsberg_2019Cell_cd,GSE134809
+GSM3972017,GSE134809_pat. 10,10M4F,smallInt,ileum,LP,32.7±12.9,adult,10X_3'_V2,CD_inflamed,EphraimKenigsberg_2019Cell_cd,GSE134809
+GSM3972018,GSE134809_pat. 10,10M4F,smallInt,ileum,LP,32.7±12.9,adult,10X_3'_V2,CD_non_inflamed,EphraimKenigsberg_2019Cell_cd,GSE134809
+GSM3972019,GSE134809_pat. 11,10M4F,smallInt,ileum,LP,32.7±12.9,adult,10X_3'_V2,CD_non_inflamed,EphraimKenigsberg_2019Cell_cd,GSE134809
+GSM3972020,GSE134809_pat. 11,10M4F,smallInt,ileum,LP,32.7±12.9,adult,10X_3'_V2,CD_inflamed,EphraimKenigsberg_2019Cell_cd,GSE134809
+GSM3972021,GSE134809_pat. 12,10M4F,smallInt,ileum,LP,32.7±12.9,adult,10X_3'_V2,CD_non_inflamed,EphraimKenigsberg_2019Cell_cd,GSE134809
+GSM3972022,GSE134809_pat. 12,10M4F,smallInt,ileum,LP,32.7±12.9,adult,10X_3'_V2,CD_inflamed,EphraimKenigsberg_2019Cell_cd,GSE134809
+GSM3972023,GSE134809_pat. 13,10M4F,smallInt,ileum,LP,32.7±12.9,adult,10X_3'_V2,CD_non_inflamed,EphraimKenigsberg_2019Cell_cd,GSE134809
+GSM3972024,GSE134809_pat. 13,10M4F,smallInt,ileum,LP,32.7±12.9,adult,10X_3'_V2,CD_inflamed,EphraimKenigsberg_2019Cell_cd,GSE134809
+GSM3972025,GSE134809_pat. 14,10M4F,smallInt,ileum,LP,32.7±12.9,adult,10X_3'_V2,CD_non_inflamed,EphraimKenigsberg_2019Cell_cd,GSE134809
+GSM3972026,GSE134809_pat. 14,10M4F,smallInt,ileum,LP,32.7±12.9,adult,10X_3'_V2,CD_inflamed,EphraimKenigsberg_2019Cell_cd,GSE134809
+GSM3972027,GSE134809_pat. 15,10M4F,smallInt,ileum,LP,32.7±12.9,adult,10X_3'_V2,CD_non_inflamed,EphraimKenigsberg_2019Cell_cd,GSE134809
+GSM3972028,GSE134809_pat. 15,10M4F,smallInt,ileum,LP,32.7±12.9,adult,10X_3'_V2,CD_inflamed,EphraimKenigsberg_2019Cell_cd,GSE134809
+GSM3972029,GSE134809_pat. 16,10M4F,smallInt,ileum,LP,32.7±12.9,adult,10X_3'_V2,CD_non_inflamed,EphraimKenigsberg_2019Cell_cd,GSE134809
+GSM3972030,GSE134809_pat. 16,10M4F,smallInt,ileum,LP,32.7±12.9,adult,10X_3'_V2,CD_inflamed,EphraimKenigsberg_2019Cell_cd,GSE134809
+GSM4761136,GSE134809_pat. 5,10M4F,blood,PBMC,PBMC,32.7±12.9,adult,10X_3'_V1,CD_PBMC,EphraimKenigsberg_2019Cell_cd,GSE134809
+GSM4761137,GSE134809_pat. 6,10M4F,blood,PBMC,PBMC,32.7±12.9,adult,10X_3'_V2,CD_PBMC,EphraimKenigsberg_2019Cell_cd,GSE134809
+GSM4761138,GSE134809_pat. 7,10M4F,blood,PBMC,PBMC,32.7±12.9,adult,10X_3'_V2,CD_PBMC,EphraimKenigsberg_2019Cell_cd,GSE134809
+GSM4761139,GSE134809_pat. 8,10M4F,blood,PBMC,PBMC,32.7±12.9,adult,10X_3'_V2,CD_PBMC,EphraimKenigsberg_2019Cell_cd,GSE134809
+GSM4761140,GSE134809_pat. 10,10M4F,blood,PBMC,PBMC,32.7±12.9,adult,10X_3'_V2,CD_PBMC,EphraimKenigsberg_2019Cell_cd,GSE134809
+GSM4761141,GSE134809_pat. 11,10M4F,blood,PBMC,PBMC,32.7±12.9,adult,10X_3'_V2,CD_PBMC,EphraimKenigsberg_2019Cell_cd,GSE134809
+GSM4761142,GSE134809_pat. 12,10M4F,blood,PBMC,PBMC,32.7±12.9,adult,10X_3'_V2,CD_PBMC,EphraimKenigsberg_2019Cell_cd,GSE134809
+GSM4761143,GSE134809_pat. 14,10M4F,blood,PBMC,PBMC,32.7±12.9,adult,10X_3'_V2,CD_PBMC,EphraimKenigsberg_2019Cell_cd,GSE134809
+GSM4761144,GSE134809_pat. 15,10M4F,blood,PBMC,PBMC,32.7±12.9,adult,10X_3'_V2,CD_PBMC,EphraimKenigsberg_2019Cell_cd,GSE134809
+GSM3140593,GSM3140593_HC1,F,largeInt,colon,,65,adult,10X_3'_V2,Healthy,AlisonSimmons_2018Cell_uc_Mesenchyme,GSE114374
+GSM3140594,GSM3140594_HC2,M,largeInt,colon,,55,adult,10X_3'_V2,Healthy,AlisonSimmons_2018Cell_uc_Mesenchyme,GSE114374
+GSM3140595,GSM3140595_UC1,F,largeInt,colon,,35,adult,10X_3'_V2,UC_inflamed,AlisonSimmons_2018Cell_uc_Mesenchyme,GSE114374
+GSM3140596,GSM3140596_UC2,F,largeInt,colon,,44,adult,10X_3'_V2,UC_inflamed,AlisonSimmons_2018Cell_uc_Mesenchyme,GSE114374
+intestinalDev_3_1,ABN2,F,largeInt,colon,,13 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_1,ACB1,M,smallInt,ileum,,20 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_1,ABN3,F,largeInt,colon,,13 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_1,ABZ2,M,smallInt,ileum,,8 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_1,AAC1,M,smallInt,ileum,,9 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_1,ACB2,M,largeInt,colon,,20 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_1,ABZ1,M,largeInt,Hindgut,,8 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_1,ABN1,F,smallInt,ileum,,13 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_1,ACB3,M,largeInt,colon,,20 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_3,ABV3,M,largeInt,colon,,17 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_3,ABV2,M,largeInt,colon,,17 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_3,ABM1,F,smallInt,ileum,,8 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_3,ABI1,F,smallInt,ileum,,18 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_3,ABI3,F,largeInt,colon,,18 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_3,ABV1,M,smallInt,ileum,,17 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_3,ABF3,M,smallInt,ileum,,10 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_5,ABD3,F,largeInt,colon,,16 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_5,AAT2,M,largeInt,colon,,12 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_5,ABK2,M,largeInt,colon,,13 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_5,AAT1,M,smallInt,ileum,,12 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_5,AAT3,M,largeInt,colon,,12 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_5,ABK1,M,smallInt,ileum,,13 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_5,ABD2,F,largeInt,colon,,16 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_5,ABK3,M,largeInt,colon,,13 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_2,ACB2,M,largeInt,colon,,20 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_2,ACB1,M,smallInt,ileum,,20 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_2,ABN2,F,largeInt,colon,,13 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_2,ACB3,M,largeInt,colon,,20 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_2,ABZ2,M,smallInt,ileum,,8 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_2,AAC1,M,smallInt,ileum,,9 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_2,ABN1,F,smallInt,ileum,,13 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_2,ABZ1,M,largeInt,Hindgut,,8 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_2,ABN3,F,largeInt,colon,,13 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_4,ABV1,M,smallInt,ileum,,17 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_4,ABI3,F,largeInt,colon,,18 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_4,ABV2,M,largeInt,colon,,17 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_4,ABM1,F,smallInt,ileum,,8 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_4,ABV3,M,largeInt,colon,,17 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_4,ABI1,F,smallInt,ileum,,18 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_4,ABF3,M,smallInt,ileum,,10 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_4,ABF1,M,largeInt,Hindgut,,10 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_6,ABK2,M,largeInt,colon,,13 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_6,ABD2,F,largeInt,colon,,16 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_6,ABD3,F,largeInt,colon,,16 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_6,ABK1,M,smallInt,ileum,,13 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_6,AAT2,M,largeInt,colon,,12 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_6,ABK3,M,largeInt,colon,,13 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_6,AAT3,M,largeInt,colon,,12 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_6,AAT1,M,smallInt,ileum,,12 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_1_1,AAB,F,largeInt,colon,,17 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_1_1,AAE,F,largeInt,colon,,19 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_1_1,AAF,M,largeInt,Hindgut,,12 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_1_2,AAB,F,largeInt,colon,,17 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_1_2,AAF,M,largeInt,Hindgut,,12 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_2_2,AAQ3,F,largeInt,colon,,15 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_2_2,AAP1,M,smallInt,ileum,,22 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_2_2,AAU2,M,largeInt,colon,,10 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_2_2,AAU3,M,largeInt,colon,,10 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_2_2,AAQ2,F,largeInt,colon,,15 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_2_2,AAP2,M,largeInt,colon,,22 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_2_2,AAP3,M,largeInt,colon,,22 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_2_2,AAU1,M,smallInt,ileum,,10 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_2_2,AAQ1,F,smallInt,ileum,,15 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_2_1,AAU3,M,largeInt,colon,,10 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_2_1,AAP3,M,largeInt,colon,,22 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_2_1,AAP2,M,largeInt,colon,,22 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_2_1,AAQ2,F,largeInt,colon,,15 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_2_1,AAU2,M,largeInt,colon,,10 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_2_1,AAQ3,F,largeInt,colon,,15 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_2_1,AAQ1,F,smallInt,ileum,,15 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_2_1,AAU1,M,smallInt,ileum,,10 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_2_1,AAP1,M,smallInt,ileum,,22 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_3_3,ABF1,M,largeInt,Hindgut,,10 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+intestinalDev_1_2,AAE,F,largeInt,colon,,19 PCW,fetal,10X_3'_V3,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,GSE158702
+GSM3214203,GSM3214203_A1,1M2F,largeInt,colon,,50[47-74],adult,10X_3'_V2,Healthy,AlisonSimmons_2019Nature_uc_epithelial,GSE116222
+GSM3214206,GSM3214206_B1,1M2F,largeInt,colon,,50[47-74],adult,10X_3'_V2,Healthy,AlisonSimmons_2019Nature_uc_epithelial,GSE116222
+GSM3214209,GSM3214209_C1,1M2F,largeInt,colon,,50[47-74],adult,10X_3'_V2,Healthy,AlisonSimmons_2019Nature_uc_epithelial,GSE116222
+GSM3214201,GSM3214201_A3,2M1F,largeInt,colon,,55[36-80],adult,10X_3'_V2,UC_inflamed,AlisonSimmons_2019Nature_uc_epithelial,GSE116222
+GSM3214204,GSM3214204_B3,2M1F,largeInt,colon,,55[36-80],adult,10X_3'_V2,UC_inflamed,AlisonSimmons_2019Nature_uc_epithelial,GSE116222
+GSM3214207,GSM3214207_C3,2M1F,largeInt,colon,,55[36-80],adult,10X_3'_V2,UC_inflamed,AlisonSimmons_2019Nature_uc_epithelial,GSE116222
+GSM3214202,GSM3214202_A2,2M1F,largeInt,colon,,55[36-80],adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2019Nature_uc_epithelial,GSE116222
+GSM3214205,GSM3214205_B2,2M1F,largeInt,colon,,55[36-80],adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2019Nature_uc_epithelial,GSE116222
+GSM3214208,GSM3214208_C2,2M1F,largeInt,colon,,55[36-80],adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2019Nature_uc_epithelial,GSE116222
+BS1122763,SUB231709,F,largeInt,colon,,adult,adult,10X_3',Healthy,Fina_M.Powrie_2021NatMed_Stromal,ImmPort:SDY1765
+BS1122764,SUB231710,F,largeInt,colon,,adult,adult,10X_3',Healthy,Fina_M.Powrie_2021NatMed_Stromal,ImmPort:SDY1765
+BS1122765,SUB231711,F,largeInt,colon,,adult,adult,10X_3',Healthy,Fina_M.Powrie_2021NatMed_Stromal,ImmPort:SDY1765
+BS1122766,SUB231712,F,largeInt,colon,,adult,adult,10X_3',Healthy,Fina_M.Powrie_2021NatMed_Stromal,ImmPort:SDY1765
+BS1122767,SUB231713,F,largeInt,colon,,adult,adult,10X_3',Healthy,Fina_M.Powrie_2021NatMed_Stromal,ImmPort:SDY1765
+BS1122768,SUB231714,F,largeInt,colon,,adult,adult,10X_3',UC_inflamed,Fina_M.Powrie_2021NatMed_Stromal,ImmPort:SDY1765
+BS1122769,SUB231715,F,largeInt,colon,,adult,adult,10X_3',UC_inflamed,Fina_M.Powrie_2021NatMed_Stromal,ImmPort:SDY1765
+BS1122770,SUB231716,F,largeInt,colon,,adult,adult,10X_3',UC_inflamed,Fina_M.Powrie_2021NatMed_Stromal,ImmPort:SDY1765
+BS1122771,SUB231717,F,largeInt,colon,,adult,adult,10X_3',UC_inflamed,Fina_M.Powrie_2021NatMed_Stromal,ImmPort:SDY1765
+BS1122772,SUB231718,F,largeInt,colon,,adult,adult,10X_3',UC_inflamed,Fina_M.Powrie_2021NatMed_Stromal,ImmPort:SDY1765
+BS1122773,SUB231718,F,largeInt,colon,,adult,adult,10X_3',UC_inflamed,Fina_M.Powrie_2021NatMed_Stromal,ImmPort:SDY1765
+BS1122774,SUB231719,F,largeInt,colon,,adult,adult,10X_3',UC_inflamed,Fina_M.Powrie_2021NatMed_Stromal,ImmPort:SDY1765
+BS1122775,SUB231719,F,largeInt,colon,,adult,adult,10X_3',UC_inflamed,Fina_M.Powrie_2021NatMed_Stromal,ImmPort:SDY1765
+BS1122776,SUB231720,F,largeInt,colon,,adult,adult,10X_3',UC_inflamed,Fina_M.Powrie_2021NatMed_Stromal,ImmPort:SDY1765
+BS1122777,SUB231720,F,largeInt,colon,,adult,adult,10X_3',UC_inflamed,Fina_M.Powrie_2021NatMed_Stromal,ImmPort:SDY1765
+BS1122778,SUB231721,F,largeInt,colon,,adult,adult,10X_3',UC_inflamed,Fina_M.Powrie_2021NatMed_Stromal,ImmPort:SDY1765
+BS1122779,SUB231721,F,largeInt,colon,,adult,adult,10X_3',UC_inflamed,Fina_M.Powrie_2021NatMed_Stromal,ImmPort:SDY1765
+N7.EpiA,N7,F,largeInt,colon,Epi,20-77,adult,10X_3'_V1,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N7.EpiB,N7,F,largeInt,colon,Epi,20-77,adult,10X_3'_V1,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N7.LPA,N7,F,largeInt,colon,LP,20-77,adult,10X_3'_V1,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N7.LPB,N7,F,largeInt,colon,LP,20-77,adult,10X_3'_V1,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N9.EpiA,N9,M,largeInt,colon,Epi,20-77,adult,10X_3'_V1,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N9.EpiB,N9,M,largeInt,colon,Epi,20-77,adult,10X_3'_V1,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N9.LPA,N9,M,largeInt,colon,LP,20-77,adult,10X_3'_V1,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N9.LPB,N9,M,largeInt,colon,LP,20-77,adult,10X_3'_V1,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N10.EpiA,N10,F,largeInt,colon,Epi,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N10.EpiB,N10,F,largeInt,colon,Epi,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N10.LPA,N10,F,largeInt,colon,LP,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N10.LPB,N10,F,largeInt,colon,LP,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N8.EpiA,N8,F,largeInt,colon,Epi,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N8.EpiB,N8,F,largeInt,colon,Epi,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N8.LPA,N8,F,largeInt,colon,LP,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N8.LPB,N8,F,largeInt,colon,LP,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N11.EpiA,N11,M,largeInt,colon,Epi,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N11.EpiB,N11,M,largeInt,colon,Epi,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N11.LPA,N11,M,largeInt,colon,LP,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N11.LPB,N11,M,largeInt,colon,LP,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N12.EpiA,N12,M,largeInt,colon,Epi,20-77,adult,10X_3'_V1,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N12.EpiB,N12,M,largeInt,colon,Epi,20-77,adult,10X_3'_V1,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N12.LPA,N12,M,largeInt,colon,LP,20-77,adult,10X_3'_V1,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N12.LPB,N12,M,largeInt,colon,LP,20-77,adult,10X_3'_V1,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N13.LPA,N13,F,largeInt,colon,LP,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N13.LPB,N13,F,largeInt,colon,LP,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N13.EpiA,N13,F,largeInt,colon,Epi,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N13.EpiB,N13,F,largeInt,colon,Epi,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N14.EpiA,N14,F,largeInt,colon,Epi,20-77,adult,10X_3'_V1,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N14.EpiB,N14,F,largeInt,colon,Epi,20-77,adult,10X_3'_V1,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N14.LPA,N14,F,largeInt,colon,LP,20-77,adult,10X_3'_V1,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N14.LPB,N14,F,largeInt,colon,LP,20-77,adult,10X_3'_V1,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N15.EpiA,N15,M,largeInt,colon,Epi,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N15.EpiB,N15,M,largeInt,colon,Epi,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N15.LPA,N15,M,largeInt,colon,LP,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N15.LPB,N15,M,largeInt,colon,LP,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N16.EpiA,N16,M,largeInt,colon,Epi,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N16.EpiB,N16,M,largeInt,colon,Epi,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N16.LPA,N16,M,largeInt,colon,LP,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N16.LPB,N16,M,largeInt,colon,LP,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N17.EpiA,N17,M,largeInt,colon,Epi,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N17.EpiB,N17,M,largeInt,colon,Epi,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N17.LPA,N17,M,largeInt,colon,LP,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N17.LPB,N17,M,largeInt,colon,LP,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N18.EpiA,N18,F,largeInt,colon,Epi,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N18.EpiB,N18,F,largeInt,colon,Epi,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N18.LPA,N18,F,largeInt,colon,LP,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N18.LPB,N18,F,largeInt,colon,LP,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N19.EpiA,N19,F,largeInt,colon,Epi,20-77,adult,10X_3'_V1,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N19.EpiB,N19,F,largeInt,colon,Epi,20-77,adult,10X_3'_V1,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N19.LPA,N19,F,largeInt,colon,LP,20-77,adult,10X_3'_V1,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N19.LPB,N19,F,largeInt,colon,LP,20-77,adult,10X_3'_V1,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N20.EpiA,N20,F,largeInt,colon,Epi,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N20.EpiB,N20,F,largeInt,colon,Epi,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N20.LPA,N20,F,largeInt,colon,LP,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N20.LPB,N20,F,largeInt,colon,LP,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N21.EpiA,N21,F,largeInt,colon,Epi,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N21.EpiB,N21,F,largeInt,colon,Epi,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N21.LPA,N21,F,largeInt,colon,LP,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N21.LPB,N21,F,largeInt,colon,LP,20-77,adult,10X_3'_V1,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N23.EpiA,N23,F,largeInt,colon,Epi,20-77,adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N23.EpiB,N23,F,largeInt,colon,Epi,20-77,adult,10X_3'_V2,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N23.LPA,N23,F,largeInt,colon,LP,20-77,adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N23.LPB,N23,F,largeInt,colon,LP,20-77,adult,10X_3'_V2,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N24.EpiA,N24,F,largeInt,rectum,Epi,20-77,adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N24.EpiB,N24,F,largeInt,rectum,Epi,20-77,adult,10X_3'_V2,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N24.LPA,N24,F,largeInt,rectum,LP,20-77,adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N24.LPB,N24,F,largeInt,rectum,LP,20-77,adult,10X_3'_V2,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N26.EpiA,N26,M,largeInt,colon,Epi,20-77,adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N26.EpiB,N26,M,largeInt,colon,Epi,20-77,adult,10X_3'_V2,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N26.LPA,N26,M,largeInt,colon,LP,20-77,adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N26.LPB,N26,M,largeInt,colon,LP,20-77,adult,10X_3'_V2,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N51.LPA,N51,M,largeInt,cecum,LP,20-77,adult,10X_3'_V2,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N51.LPB,N51,M,largeInt,cecum,LP,20-77,adult,10X_3'_V2,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N51.EpiA,N51,M,largeInt,cecum,Epi,20-77,adult,10X_3'_V2,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N51.EpiB,N51,M,largeInt,cecum,Epi,20-77,adult,10X_3'_V2,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N52.LPB1a,N52,M,largeInt,rectum,LP,20-77,adult,10X_3'_V2,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N52.LPB2a,N52,M,largeInt,rectum,LP,20-77,adult,10X_3'_V2,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N52.LPA1a,N52,M,largeInt,rectum,LP,20-77,adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N52.LPA2a,N52,M,largeInt,rectum,LP,20-77,adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N52.EpiA1a,N52,M,largeInt,rectum,Epi,20-77,adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N52.EpiA2a,N52,M,largeInt,rectum,Epi,20-77,adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N52.LPB1b,N52,M,largeInt,rectum,LP,20-77,adult,10X_3'_V2,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N52.LPB2b,N52,M,largeInt,rectum,LP,20-77,adult,10X_3'_V2,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N52.LPA1b,N52,M,largeInt,rectum,LP,20-77,adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N52.LPA2b,N52,M,largeInt,rectum,LP,20-77,adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N52.EpiA1b,N52,M,largeInt,rectum,Epi,20-77,adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N52.EpiA2b,N52,M,largeInt,rectum,Epi,20-77,adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N58.EpiB1,N58,M,largeInt,rectum,Epi,20-77,adult,10X_3'_V2,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N58.EpiB2,N58,M,largeInt,rectum,Epi,20-77,adult,10X_3'_V2,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N58.LPB1,N58,M,largeInt,rectum,LP,20-77,adult,10X_3'_V2,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N58.LPB2,N58,M,largeInt,rectum,LP,20-77,adult,10X_3'_V2,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N58.LPA1,N58,M,largeInt,rectum,LP,20-77,adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N58.LPA2,N58,M,largeInt,rectum,LP,20-77,adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N58.EpiA1,N58,M,largeInt,rectum,Epi,20-77,adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N58.EpiA2,N58,M,largeInt,rectum,Epi,20-77,adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N111.EpiB1,N111,F,largeInt,rectum,Epi,20-77,adult,10X_3'_V2,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N111.EpiB2,N111,F,largeInt,rectum,Epi,20-77,adult,10X_3'_V2,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N111.LPB1,N111,F,largeInt,rectum,LP,20-77,adult,10X_3'_V2,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N111.LPB2,N111,F,largeInt,rectum,LP,20-77,adult,10X_3'_V2,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N111.LPA1,N111,F,largeInt,rectum,LP,20-77,adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N111.LPA2,N111,F,largeInt,rectum,LP,20-77,adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N111.EpiA1,N111,F,largeInt,rectum,Epi,20-77,adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N661.LPA1,N661,M,largeInt,colon,LP,20-77,adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N661.LPA2,N661,M,largeInt,colon,LP,20-77,adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N44.EpiB,N44,F,largeInt,colon,Epi,20-77,adult,10X_3'_V2,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N44.EpiA,N44,F,largeInt,colon,Epi,20-77,adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N44.LPB,N44,F,largeInt,colon,LP,20-77,adult,10X_3'_V2,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N44.LPA,N44,F,largeInt,colon,LP,20-77,adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N46.EpiA,N46,M,largeInt,colon,Epi,20-77,adult,10X_3'_V2,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N46.EpiB,N46,M,largeInt,colon,Epi,20-77,adult,10X_3'_V2,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N46.LPA,N46,M,largeInt,colon,LP,20-77,adult,10X_3'_V2,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N46.LPB,N46,M,largeInt,colon,LP,20-77,adult,10X_3'_V2,Healthy,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N49.EpiA,N49,M,largeInt,rectum,Epi,20-77,adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N49.LPA,N49,M,largeInt,rectum,LP,20-77,adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N49.LPB,N49,M,largeInt,rectum,LP,20-77,adult,10X_3'_V2,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N50.EpiA,N50,F,largeInt,colon,Epi,20-77,adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N50.EpiB,N50,F,largeInt,colon,Epi,20-77,adult,10X_3'_V2,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N50.LPA,N50,F,largeInt,colon,LP,20-77,adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N50.LPB,N50,F,largeInt,colon,LP,20-77,adult,10X_3'_V2,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N106.EpiB,N106,F,largeInt,rectum,Epi,20-77,adult,10X_3'_V2,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N106.EpiA,N106,F,largeInt,rectum,Epi,20-77,adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N106.LPB,N106,F,largeInt,rectum,LP,20-77,adult,10X_3'_V2,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N106.LPA,N106,F,largeInt,rectum,LP,20-77,adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N539.EpiA,N539,F,largeInt,colon,Epi,20-77,adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N539.EpiB,N539,F,largeInt,colon,Epi,20-77,adult,10X_3'_V2,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N539.LPA,N539,F,largeInt,colon,LP,20-77,adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N539.LPB,N539,F,largeInt,colon,LP,20-77,adult,10X_3'_V2,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N110.EpiA,N110,,largeInt,colon,Epi,20-77,adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N110.LPA,N110,,largeInt,colon,LP,20-77,adult,10X_3'_V2,UC_non_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N110.LPB,N110,,largeInt,colon,LP,20-77,adult,10X_3'_V2,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N661.LPB1,N661,M,largeInt,colon,LP,20-77,adult,10X_3'_V2,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+N661.LPB2,N661,M,largeInt,colon,LP,20-77,adult,10X_3'_V2,UC_inflamed,AlisonSimmons_2021Cell_intestinalDev_spatial,Single Cell Portal:SCP259
+GSM4483692,GSM4483692_S21,F,largeInt,pan colon,,54,adult,10X_5'_V2,Healthy,AlisonSimmons_2020NatMed_uc_CD8Tcell,GSE148837
+GSM4483693,GSM4483693_S22,M,largeInt,distal colon,,82,adult,10X_5'_V2,Healthy,AlisonSimmons_2020NatMed_uc_CD8Tcell,GSE148837
+GSM4483694,GSM4483694_S23,F,largeInt,pan colon,,38,adult,10X_5'_V2,Healthy,AlisonSimmons_2020NatMed_uc_CD8Tcell,GSE148837
+GSM4483695,GSM4483695_S24,F,largeInt,distal colon,,67,adult,10X_5'_V2,UC_inflamed,AlisonSimmons_2020NatMed_uc_CD8Tcell,GSE148837
+GSM4483696,GSM4483696_S33,F,largeInt,distal colon,,29,adult,10X_5'_V2,UC_inflamed,AlisonSimmons_2020NatMed_uc_CD8Tcell,GSE148837
+GSM4483697,GSM4483697_S34,F,largeInt,distal colon,,40,adult,10X_5'_V2,UC_inflamed,AlisonSimmons_2020NatMed_uc_CD8Tcell,GSE148837
+4918STDY7333456,T036,M,smallInt,ileum,,4,pediatric,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7702680,T110POS,M,smallInt,ileum,,4,pediatric,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7844899,T161,M,smallInt,ileum,,4,pediatric,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7447825,T057,M,smallInt,ileum,,6,pediatric,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7923744,T182,M,smallInt,ileum,,9,pediatric,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7389431,T044,F,smallInt,ileum,,10,pediatric,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7274839,T024,F,smallInt,ileum,,12,pediatric,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7962470,T197,M,smallInt,ileum,,9,pediatric,10X_3',CD_inflamed,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7844898,T160,F,smallInt,ileum,,10,pediatric,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7901096,T176,M,smallInt,ileum,,11,pediatric,10X_3',CD_inflamed,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7273965,T019,M,smallInt,ileum,,12,pediatric,10X_3',CD_inflamed,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7982703,T202,F,smallInt,ileum,,12,pediatric,10X_3',CD_inflamed,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7273964,T017,M,smallInt,ileum,,13,pediatric,10X_3',CD_inflamed,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7933270,T189,F,smallInt,ileum,,13,pediatric,10X_3',CD_inflamed,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7982702,T203,M,smallInt,ileum,,14,pediatric,10X_3',CD_inflamed,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7702679,T110NEG,M,smallInt,ileum,,4,pediatric,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7714149,T036POS,M,smallInt,ileum,,4,pediatric,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7714150,T036NEG,M,smallInt,ileum,,4,pediatric,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+Human_colon_16S8000511,A32 (411C),M,largeInt,colon,,25-30,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8001903,A32 (411C),M,largeInt,colon,,25-30,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8123909,A32 (411C),M,largeInt,appendix,,25-30,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8159192,A32 (411C),M,largeInt,appendix,,25-30,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8159194,A32 (411C),M,lymphNode,lymph node,,25-30,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8123908,A32 (411C),M,largeInt,colon,,25-30,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8159191,A32 (411C),M,largeInt,colon,,25-30,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8123910,A32 (411C),M,largeInt,cecum,,25-30,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8159193,A32 (411C),M,largeInt,cecum,,25-30,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8000513,A32 (411C),M,smallInt,ileum,,25-30,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8001905,A32 (411C),M,smallInt,ileum,,25-30,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8000515,A32 (411C),M,smallInt,ileum,,25-30,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8001907,A32 (411C),M,smallInt,ileum,,25-30,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8001863,A34 (417C),M,largeInt,cecum,,65-70,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8000471,A34 (417C),M,largeInt,cecum,,65-70,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8001865,A34 (417C),M,largeInt,colon,,65-70,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8000473,A34 (417C),M,largeInt,colon,,65-70,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8001867,A34 (417C),M,largeInt,colon,,65-70,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8000475,A34 (417C),M,largeInt,colon,,65-70,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8001869,A34 (417C),M,largeInt,colon,,65-70,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8000477,A34 (417C),M,largeInt,colon,,65-70,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8001871,A34 (417C),M,largeInt,colon,,65-70,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8000479,A34 (417C),M,largeInt,colon,,65-70,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8001873,A34 (417C),M,largeInt,rectum,,65-70,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8000481,A34 (417C),M,largeInt,rectum,,65-70,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8001875,A34 (417C),M,largeInt,appendix,,65-70,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8000483,A34 (417C),M,largeInt,appendix,,65-70,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8000484,A34 (417C),M,lymphNode,lymph node,,65-70,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8001878,A34 (417C),M,smallInt,duodenum,,65-70,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8001879,A34 (417C),M,smallInt,duodenum,,65-70,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8000487,A34 (417C),M,smallInt,duodenum,,65-70,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8001881,A34 (417C),M,smallInt,jejunum,,65-70,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8000489,A34 (417C),M,smallInt,jejunum,,65-70,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8001883,A34 (417C),M,smallInt,ileum,,65-70,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8000491,A34 (417C),M,smallInt,ileum,,65-70,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8001885,A34 (417C),M,smallInt,ileum,,65-70,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8000493,A34 (417C),M,smallInt,ileum,,65-70,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8123916,A39 (440C),M,largeInt,colon,,45-50,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8123918,A39 (440C),M,largeInt,colon,,45-50,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8123917,A39 (440C),M,largeInt,colon,,45-50,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8123915,A39 (440C),M,largeInt,cecum,,45-50,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8123920,A39 (440C),M,largeInt,colon,,45-50,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8123912,A39 (440C),M,smallInt,ileum,,45-50,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8123913,A39 (440C),M,smallInt,ileum,,45-50,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8123911,A39 (440C),M,smallInt,jejunum,,45-50,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8123919,A39 (440C),M,largeInt,appendix,,45-50,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8123921,A39 (440C),M,lymphNode,lymph node,,45-50,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8002623,A38 (432C),F,smallInt,jejunum,,60-65,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8002624,A38 (432C),F,largeInt,cecum,,60-65,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8002625,A38 (432C),F,largeInt,appendix,,60-65,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8002626,A38 (432C),F,largeInt,colon,,60-65,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8002627,A38 (432C),F,largeInt,colon,,60-65,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8002628,A38 (432C),F,largeInt,colon,,60-65,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8002629,A38 (432C),F,largeInt,colon,,60-65,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8002630,A38 (432C),F,largeInt,colon,,60-65,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8002566,A38 (432C),F,largeInt,colon,,60-65,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8002573,A38 (432C),F,largeInt,rectum,,60-65,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8002574,A38 (432C),F,lymphNode,lymph node,,60-65,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8002581,A38 (432C),F,smallInt,duodenum,,60-65,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8002582,A38 (432C),F,smallInt,duodenum,,60-65,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8117831,A26 (386C),F,largeInt,colon,,70-75,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8117829,A26 (386C),F,largeInt,cecum,,70-75,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8117830,A26 (386C),F,largeInt,colon,,70-75,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8117828,A26 (386C),F,lymphNode,lymph node,,70-75,adult,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8159182,F72,F,smallInt,ileum,,16Wk,fetal,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8159183,F72,F,smallInt,ileum,,16Wk,fetal,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8159184,F72,F,smallInt,ileum,,16Wk,fetal,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8159185,F72,F,largeInt,colon,,16Wk,fetal,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8159186,F72,F,lymphNode,lymph node,,16Wk,fetal,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8159187,F73,F,smallInt,ileum,,15Wk,fetal,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8159188,F73,F,smallInt,ileum,,15Wk,fetal,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8159189,F73,F,smallInt,ileum,,15Wk,fetal,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S8159190,F73,F,largeInt,colon,,15Wk,fetal,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+FCA_gut8015057,F78,M,smallInt,ileum,,17Wk,fetal,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+FCA_gut8015058,F78,M,smallInt,ileum,,17Wk,fetal,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+FCA_gut8015059,F78,M,smallInt,ileum,,17Wk,fetal,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+FCA_gut8015060,F78,M,largeInt,colon,,17Wk,fetal,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+FCA_gut8015061,F78,M,lymphNode,lymph node,,17Wk,fetal,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S7985389,F66,M,smallInt,ileum,,15Wk,fetal,10X_3',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S7985390,F66,M,smallInt,ileum,,15Wk,fetal,10X_3',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S7985391,F66,M,smallInt,ileum,,15Wk,fetal,10X_3',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S7985392,F66,M,largeInt,colon,,15Wk,fetal,10X_3',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S7985393,F67,F,smallInt,ileum,,12Wk,fetal,10X_3',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S7985394,F67,F,smallInt,ileum,,12Wk,fetal,10X_3',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+Human_colon_16S7985395,F67,F,largeInt,colon,,12Wk,fetal,10X_3',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+FCA_gut9456313,BRC2258,M,smallInt,ileum,,11.1Wk,fetal,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+FCA_gut9456316,BRC2258,M,smallInt,ileum,,11.1Wk,fetal,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+FCA_gut9456319,BRC2258,M,smallInt,ileum,,11.1Wk,fetal,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+FCA_gut9456322,BRC2258,M,largeInt,colon,,11.1Wk,fetal,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+FCA_gut9456326,BRC2259,F,smallInt,ileum,,7.4Wk,fetal,10X_5',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+4918STDY7321513,BRC2029,F,smallInt,ileum,,6.1Wk,fetal,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7321514,BRC2029,F,smallInt,ileum,,6.1Wk,fetal,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7321515,BRC2029,F,largeInt,colon,,6.1Wk,fetal,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7317585,BRC2026,F,smallInt,ileum,,8.4Wk,fetal,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7317586,BRC2026,F,smallInt,ileum,,8.4Wk,fetal,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7317587,BRC2026,F,largeInt,colon,,8.4Wk,fetal,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7421297,BRC2043,M,smallInt,ileum,,10.2Wk,fetal,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7421298,BRC2043,M,smallInt,ileum,,10.2Wk,fetal,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7421299,BRC2043,M,largeInt,colon,,10.2Wk,fetal,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7426904,BRC2046,M,smallInt,ileum,,6.7Wk,fetal,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7426905,BRC2046,M,smallInt,ileum,,6.7Wk,fetal,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7426906,BRC2046,M,largeInt,colon,,6.7Wk,fetal,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7426907,BRC2049,M,smallInt,ileum,,6.9Wk,fetal,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7426908,BRC2049,M,smallInt,ileum,,6.9Wk,fetal,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7426909,BRC2049,M,largeInt,colon,,6.9Wk,fetal,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7693757,BRC2121,M,smallInt,ileum,,9.2Wk,fetal,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7693758,BRC2121,M,smallInt,ileum,,9.2Wk,fetal,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7693759,BRC2121,M,largeInt,colon,,9.2Wk,fetal,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7693760,BRC2119,F,smallInt,ileum,,7.9Wk,fetal,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7693761,BRC2119,F,smallInt,ileum,,7.9Wk,fetal,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7693762,BRC2119,F,largeInt,colon,,7.9Wk,fetal,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7693763,BRC2121,M,smallInt,ileum,,9.2Wk,fetal,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7717783,BRC2133,F,smallInt,ileum,,9.9Wk,fetal,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7717784,BRC2133,F,smallInt,ileum,,9.9Wk,fetal,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7717785,BRC2133,F,largeInt,colon,,9.9Wk,fetal,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7717787,BRC2133,F,smallInt,ileum,,9.9Wk,fetal,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7717788,BRC2133,F,smallInt,ileum,,9.9Wk,fetal,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7717789,BRC2133,F,largeInt,colon,,9.9Wk,fetal,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7718972,BRC2134,M,smallInt,ileum,,10Wk,fetal,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7718973,BRC2134,M,smallInt,ileum,,10Wk,fetal,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7718974,BRC2134,M,largeInt,colon,,10Wk,fetal,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7718975,BRC2134,M,smallInt,ileum,,10Wk,fetal,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7718976,BRC2134,M,smallInt,ileum,,10Wk,fetal,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+4918STDY7718977,BRC2134,M,largeInt,colon,,10Wk,fetal,10X_3',Healthy,MatthiasZilbauer_2021DevCell_cd,E-MTAB-8901
+WTDAtest7844020,A33 (414C),M,smallInt,ileum,,20-25,adult,10X_3',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+WTDAtest7844022,A33 (414C),M,smallInt,jejunum,,20-25,adult,10X_3',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+WTDAtest7844024,A33 (414C),M,largeInt,colon,,20-25,adult,10X_3',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+WTDAtest7844026,A33 (414C),M,largeInt,colon,,20-25,adult,10X_3',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+WTDAtest7844027,A33 (414C),M,largeInt,colon,,20-25,adult,10X_3',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+WTDAtest7844029,A33 (414C),M,largeInt,colon,,20-25,adult,10X_3',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+WTDAtest7844030,A33 (414C),M,lymphNode,lymph node,,20-25,adult,10X_3',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+WTDAtest7844013,A33 (414C),M,largeInt,appendix,,20-25,adult,10X_3',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+WTDAtest7844015,A33 (414C),M,largeInt,rectum,,20-25,adult,10X_3',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+WTDAtest7844016,A33 (414C),M,largeInt,rectum,,20-25,adult,10X_3',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+WTDAtest7844017,A33 (414C),M,largeInt,cecum,,20-25,adult,10X_3',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+WTDAtest7844018,A33 (414C),M,largeInt,cecum,,20-25,adult,10X_3',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+WTDAtest7844019,A33 (414C),M,smallInt,ileum,,20-25,adult,10X_3',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+WTDAtest7770716,A30 (398B),F,largeInt,colon,,20-25,adult,10X_3',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+WTDAtest7770717,A30 (398B),F,largeInt,colon,,20-25,adult,10X_3',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+WTDAtest7770718,A30 (398B),F,largeInt,colon,,20-25,adult,10X_3',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+WTDAtest7770719,A30 (398B),F,largeInt,colon,,20-25,adult,10X_3',Healthy,SarahA.Teichmann_Nature2021_intestinalDev_spacetime,"E-MTAB-9543,E-MTAB-9536"
+GSM3433578,FA394/FA395/FA396/FA397,M/M/M/M,largeInt,colon,,3/5/13/3,pediatric,10X_5'_V3,colitis/IBD,YuxiaZhang_Cell2019_ibd.validation,GSE121380
+GSM3433579,FA394/FA395/FA396/FA397,M/M/M/M,largeInt,colon,,3/5/13/3,pediatric,10X_5'_V3,colitis/IBD,YuxiaZhang_Cell2019_ibd.validation,GSE121380
+GSM3433580,FA394/FA395/FA396/FA397,M/M/M/M,largeInt,colon,,3/5/13/3,pediatric,10X_5'_V3,colitis/IBD,YuxiaZhang_Cell2019_ibd.validation,GSE121380
+GSM3433581,FA340/FA341,F/M,largeInt,colon,,1/12,pediatric,10X_5'_V3,colitis/IBD,YuxiaZhang_Cell2019_ibd.validation,GSE121380
+GSM3433582,FA394/FA395/FA396/FA397,M/M/M/M,largeInt,colon,,3/5/13/3,pediatric,10X_5'_V3,colitis/IBD,YuxiaZhang_Cell2019_ibd.validation,GSE121380
+GSM3433583,FA279,M,largeInt,colon,,5,pediatric,10X_5'_V3,Healthy,YuxiaZhang_Cell2019_ibd.validation,GSE121380
+GSM3433584,FA280,M,largeInt,colon,,2,pediatric,10X_5'_V3,colitis/IBD,YuxiaZhang_Cell2019_ibd.validation,GSE121380
+GSM3584928,FA602/FA604,M/M,largeInt,colon,,9/12,pediatric,10X_5'_V3,Healthy,YuxiaZhang_Cell2019_ibd.validation,GSE121380
+GSM3584929,FA602/FA604,M/M,largeInt,colon,,9/12,pediatric,10X_5'_V3,Healthy,YuxiaZhang_Cell2019_ibd.validation,GSE121380
+GSM3584930,FA602/FA604,M/M,largeInt,colon,,9/12,pediatric,10X_5'_V3,Healthy,YuxiaZhang_Cell2019_ibd.validation,GSE121380
+GSM3584931,FA602/FA604,M/M,largeInt,colon,,9/12,pediatric,10X_5'_V3,Healthy,YuxiaZhang_Cell2019_ibd.validation,GSE121380
+GSM3584932,FA609/FA611/FA612,M/M/M,largeInt,colon,,7/6/4,pediatric,10X_5'_V3,Healthy,YuxiaZhang_Cell2019_ibd.validation,GSE121380
+GSM3584933,FA609/FA611/FA612,M/M/M,largeInt,colon,,7/6/4,pediatric,10X_5'_V3,Healthy,YuxiaZhang_Cell2019_ibd.validation,GSE121380
+HRX024330,FA696,M,largeInt,colon,,10.0,pediatric,10X_5'_V3,Healthy,YuxiaZhang_Cell2019_ibd.discovery,HRA000072
+HRX024331,FA696,M,largeInt,colon,,10.0,pediatric,10X_5'_V3,Healthy,YuxiaZhang_Cell2019_ibd.discovery,HRA000072
+HRX024334,FA697,F,largeInt,colon,,7.0,pediatric,10X_5'_V3,Healthy,YuxiaZhang_Cell2019_ibd.discovery,HRA000072
+HRX024335,FA697,F,largeInt,colon,,7.0,pediatric,10X_5'_V3,Healthy,YuxiaZhang_Cell2019_ibd.discovery,HRA000072
+HRX024338,FA699,F,largeInt,colon,,7.0,pediatric,10X_5'_V3,UC_inflamed,YuxiaZhang_Cell2019_ibd.discovery,HRA000072
+HRX024339,FA699,F,largeInt,colon,,7.0,pediatric,10X_5'_V3,UC_inflamed,YuxiaZhang_Cell2019_ibd.discovery,HRA000072
+HRX024342,FA703,M,largeInt,colon,,1.0,pediatric,10X_5'_V3,UC_inflamed,YuxiaZhang_Cell2019_ibd.discovery,HRA000072
+HRX024343,FA703,M,largeInt,colon,,1.0,pediatric,10X_5'_V3,UC_inflamed,YuxiaZhang_Cell2019_ibd.discovery,HRA000072
+HRX024346,FA705,M,largeInt,colon,,9.0,pediatric,10X_5'_V3,Colitis_inflamed,YuxiaZhang_Cell2019_ibd.discovery,HRA000072
+HRX024347,FA705,M,largeInt,colon,,9.0,pediatric,10X_5'_V3,Colitis_inflamed,YuxiaZhang_Cell2019_ibd.discovery,HRA000072
+HRX024350,FA708,M,largeInt,colon,,7.0,pediatric,10X_5'_V3,Healthy,YuxiaZhang_Cell2019_ibd.discovery,HRA000072
+HRX024351,FA708,M,largeInt,colon,,7.0,pediatric,10X_5'_V3,Healthy,YuxiaZhang_Cell2019_ibd.discovery,HRA000072
+HRX024354,FA710,M,largeInt,colon,,12.0,pediatric,10X_5'_V3,Healthy,YuxiaZhang_Cell2019_ibd.discovery,HRA000072
+HRX024355,FA710,M,largeInt,colon,,12.0,pediatric,10X_5'_V3,Healthy,YuxiaZhang_Cell2019_ibd.discovery,HRA000072
+HRX024358,FA717,F,largeInt,colon,,3.0,pediatric,10X_5'_V3,Colitis_inflamed,YuxiaZhang_Cell2019_ibd.discovery,HRA000072
+HRX024359,FA717,F,largeInt,colon,,3.0,pediatric,10X_5'_V3,Colitis_inflamed,YuxiaZhang_Cell2019_ibd.discovery,HRA000072
+HRX024362,FA718,M,largeInt,colon,,1.0,pediatric,10X_5'_V3,CD_inflamed,YuxiaZhang_Cell2019_ibd.discovery,HRA000072
+HRX024363,FA718,M,largeInt,colon,,1.0,pediatric,10X_5'_V3,CD_inflamed,YuxiaZhang_Cell2019_ibd.discovery,HRA000072
+HRX024366,FA720,F,largeInt,colon,,4.0,pediatric,10X_5'_V3,Colitis_inflamed,YuxiaZhang_Cell2019_ibd.discovery,HRA000072
+HRX024367,FA720,F,largeInt,colon,,4.0,pediatric,10X_5'_V3,Colitis_inflamed,YuxiaZhang_Cell2019_ibd.discovery,HRA000072
+HRX024370,FA721,M,largeInt,colon,,2.0,pediatric,10X_5'_V3,CD_inflamed,YuxiaZhang_Cell2019_ibd.discovery,HRA000072
+HRX024371,FA721,M,largeInt,colon,,2.0,pediatric,10X_5'_V3,CD_inflamed,YuxiaZhang_Cell2019_ibd.discovery,HRA000072
+HRX024374,FA724,F,largeInt,colon,,10.0,pediatric,10X_5'_V3,Healthy,YuxiaZhang_Cell2019_ibd.discovery,HRA000072
+HRX024375,FA724,F,largeInt,colon,,10.0,pediatric,10X_5'_V3,Healthy,YuxiaZhang_Cell2019_ibd.discovery,HRA000072
+HRX024378,FA726,M,largeInt,colon,,13.0,pediatric,10X_5'_V3,Healthy,YuxiaZhang_Cell2019_ibd.discovery,HRA000072
+HRX024379,FA726,M,largeInt,colon,,13.0,pediatric,10X_5'_V3,Healthy,YuxiaZhang_Cell2019_ibd.discovery,HRA000072
+HRX024382,FA729,M,largeInt,colon,,0.16,pediatric,10X_5'_V3,CD_inflamed,YuxiaZhang_Cell2019_ibd.discovery,HRA000072
+HRX024383,FA729,M,largeInt,colon,,0.16,pediatric,10X_5'_V3,CD_inflamed,YuxiaZhang_Cell2019_ibd.discovery,HRA000072
+HRX024386,FA733,F,largeInt,colon,,2.0,pediatric,10X_5'_V3,Colitis_inflamed,YuxiaZhang_Cell2019_ibd.discovery,HRA000072
+HRX024387,FA733,F,largeInt,colon,,2.0,pediatric,10X_5'_V3,Colitis_inflamed,YuxiaZhang_Cell2019_ibd.discovery,HRA000072
+HRX024390,FA747,M,largeInt,colon,,3.0,pediatric,10X_5'_V3,Colitis_inflamed,YuxiaZhang_Cell2019_ibd.discovery,HRA000072
+HRX024391,FA747,M,largeInt,colon,,3.0,pediatric,10X_5'_V3,Colitis_inflamed,YuxiaZhang_Cell2019_ibd.discovery,HRA000072
+HRX024394,FA767,F,largeInt,colon,,3.0,pediatric,10X_5'_V3,Colitis_inflamed,YuxiaZhang_Cell2019_ibd.discovery,HRA000072
+HRX024395,FA767,F,largeInt,colon,,3.0,pediatric,10X_5'_V3,Colitis_inflamed,YuxiaZhang_Cell2019_ibd.discovery,HRA000072
