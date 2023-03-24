@@ -1,9 +1,0 @@
-Myeloid	/data/niehu/scIBD/data/scenic/Myeloid.rss.txt
-CD4T	/data/niehu/scIBD/data/scenic/CD4T.rss.txt
-CD8T	/data/niehu/scIBD/data/scenic/CD8T.rss.txt
-ILC	/data/niehu/scIBD/data/scenic/ILC.rss.txt
-Endothelial	/data/niehu/scIBD/data/scenic/Endothelial.rss.txt
-Mesenchymal	/data/niehu/scIBD/data/scenic/Mesenchymal.rss.txt
-Epithelial	/data/niehu/scIBD/data/scenic/Epithelial.rss.txt
-Neuronal	/data/niehu/scIBD/data/scenic/Neuronal.rss.txt
-B_Plasma	/data/niehu/scIBD/data/scenic/B_plasma.rss.txt
