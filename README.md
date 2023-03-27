@@ -1,4 +1,4 @@
-# scIBD
+# Explore scIBD online
 
 This is the repository of scIBD.
 
