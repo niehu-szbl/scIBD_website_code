@@ -1,0 +1,9 @@
+Myeloid	./www/scenic/Myeloid.pyscenic_output.updated.loom
+CD4T	./www/scenic/CD4T.pyscenic_output.updated.loom
+CD8T	./www/scenic/CD8T.pyscenic_output.updated.loom
+ILC	./www/scenic/ILC.pyscenic_output.updated.loom
+B_Plasma	./www/scenic/B_plasma.pyscenic_output.updated.loom
+Mesenchymal	./www/scenic/Mesenchymal.pyscenic_output.updated.loom
+Epithelial	./www/scenic/Epithelial.pyscenic_output.updated.loom
+Endothelial	./www/scenic/Endothelial.pyscenic_output.updated.loom
+Neural	./www/scenic/Neural.pyscenic_output.updated.loom

@@ -1,0 +1,319 @@
+hgnc_symbol	ensembl_gene_id	gene_biotype	chromosome_name	start_position	end_position	description
+AAMP	ENSG00000127837	protein_coding	2	218264129	218270178	angio associated migratory cell protein 
+ACTA2	ENSG00000107796	protein_coding	10	88935074	88991339	actin alpha 2, smooth muscle 
+ADAM30	ENSG00000134249	protein_coding	1	119893533	119896515	ADAM metallopeptidase domain 30 
+ADCY3	ENSG00000138031	protein_coding	2	24819169	24920237	adenylate cyclase 3 
+ADCY7	ENSG00000121281	protein_coding	16	50246137	50318135	adenylate cyclase 7 
+AHR	ENSG00000106546	protein_coding	7	16916359	17346152	aryl hydrocarbon receptor 
+AKAP11	ENSG00000023516	protein_coding	13	42272152	42323261	A-kinase anchoring protein 11 
+ALK	ENSG00000171094	protein_coding	2	29192774	29921586	ALK receptor tyrosine kinase 
+AMZ1	ENSG00000174945	protein_coding	7	2679522	2775500	archaelysin family metallopeptidase 1 
+ANKRD55	ENSG00000164512	protein_coding	5	56099680	56233330	ankyrin repeat domain 55 
+ANO6	ENSG00000177119	protein_coding	12	45215987	45482280	anoctamin 6 
+ANTXR2	ENSG00000163297	protein_coding	4	79901146	80125454	ANTXR cell adhesion molecule 2 
+APEH	ENSG00000164062	protein_coding	3	49674014	49683971	acylaminoacyl-peptide hydrolase 
+ARL14	ENSG00000179674	protein_coding	3	160677160	160678448	ADP ribosylation factor like GTPase 14 
+ARSB	ENSG00000113273	protein_coding	5	78777209	78986087	arylsulfatase B 
+ASAP2	ENSG00000151693	protein_coding	2	9206765	9405683	ArfGAP with SH3 domain, ankyrin repeat and PH domain 2 
+ATG16L1	ENSG00000085978	protein_coding	2	233210051	233295674	autophagy related 16 like 1 
+ATOH8	ENSG00000168874	protein_coding	2	85751344	85791383	atonal bHLH transcription factor 8 
+AUH	ENSG00000148090	protein_coding	9	91213815	91361918	AU RNA binding methylglutaconyl-CoA hydratase 
+B3GNT2	ENSG00000170340	protein_coding	2	62196115	62224731	UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 2 
+BACH2	ENSG00000112182	protein_coding	6	89926528	90296843	BTB domain and CNC homolog 2 
+BANK1	ENSG00000153064	protein_coding	4	101411286	102074812	B cell scaffold protein with ankyrin repeats 1 
+BLID	ENSG00000259571	protein_coding	11	122115340	122116215	BH3-like motif containing, cell death inducer 
+BOK	ENSG00000176720	protein_coding	2	241551424	241574131	BCL2 family apoptosis regulator BOK 
+BRD7	ENSG00000166164	protein_coding	16	50313487	50368988	bromodomain containing 7 
+BRMS1L	ENSG00000100916	protein_coding	14	35826338	35932325	BRMS1 like transcriptional repressor 
+BTBD8	ENSG00000189195	protein_coding	1	92080305	92184725	BTB domain containing 8 
+BTG3	ENSG00000154640	protein_coding	21	17593653	17612945	BTG anti-proliferation factor 3 
+C17orf67	ENSG00000214226	protein_coding	17	56791913	56838773	chromosome 17 open reading frame 67 
+C1orf141	ENSG00000203963	protein_coding	1	67092165	67231853	chromosome 1 open reading frame 141 
+C3orf49	ENSG00000163632	protein_coding	3	63819299	63848636	chromosome 3 open reading frame 49 
+C7orf33	ENSG00000170279	protein_coding	7	148590766	148615860	chromosome 7 open reading frame 33 
+CACNA1S	ENSG00000081248	protein_coding	1	201039512	201112451	calcium voltage-gated channel subunit alpha1 S 
+CACNB2	ENSG00000165995	protein_coding	10	18140424	18543557	calcium voltage-gated channel auxiliary subunit beta 2 
+CAMK2A	ENSG00000070808	protein_coding	5	150219491	150290093	calcium/calmodulin dependent protein kinase II alpha 
+CAMK2G	ENSG00000148660	protein_coding	10	73812501	73874591	calcium/calmodulin dependent protein kinase II gamma 
+CAMKV	ENSG00000164076	protein_coding	3	49857988	49869935	CaM kinase like vesicle associated 
+CARD9	ENSG00000187796	protein_coding	9	136363956	136373681	caspase recruitment domain family member 9 
+CARS1	ENSG00000110619	protein_coding	11	3000922	3057613	cysteinyl-tRNA synthetase 1 
+CAVIN1	ENSG00000177469	protein_coding	17	42402449	42423256	caveolae associated protein 1 
+CCDC122	ENSG00000151773	protein_coding	13	43823909	43879740	coiled-coil domain containing 122 
+CCDC178	ENSG00000166960	protein_coding	18	32937402	33441101	coiled-coil domain containing 178 
+CCDC88B	ENSG00000168071	protein_coding	11	64340204	64357534	coiled-coil domain containing 88B 
+CCL2	ENSG00000108691	protein_coding	17	34255274	34257208	C-C motif chemokine ligand 2 
+CCL20	ENSG00000115009	protein_coding	2	227805739	227817564	C-C motif chemokine ligand 20 
+CCND3	ENSG00000112576	protein_coding	6	41934934	42050357	cyclin D3 
+CCRL2	ENSG00000121797	protein_coding	3	46407166	46412997	C-C motif chemokine receptor like 2 
+CD226	ENSG00000150637	protein_coding	18	69831158	69961803	CD226 molecule 
+CD28	ENSG00000178562	protein_coding	2	203706475	203738912	CD28 molecule 
+CD40	ENSG00000101017	protein_coding	20	46118271	46129863	CD40 molecule 
+CD6	ENSG00000013725	protein_coding	11	60971680	61020377	CD6 molecule 
+CDC123	ENSG00000151465	protein_coding	10	12195965	12250589	cell division cycle 123 
+CDC37	ENSG00000105401	protein_coding	19	10391133	10420121	cell division cycle 37, HSP90 cochaperone 
+CDH13	ENSG00000140945	protein_coding	16	82626965	83800640	cadherin 13 
+CDKAL1	ENSG00000145996	protein_coding	6	20534457	21232404	CDK5 regulatory subunit associated protein 1 like 1 
+CDKN2A	ENSG00000147889	protein_coding	9	21967752	21995301	cyclin dependent kinase inhibitor 2A 
+CEBPA	ENSG00000245848	protein_coding	19	33299934	33302534	CCAAT enhancer binding protein alpha 
+CEBPB	ENSG00000172216	protein_coding	20	50190830	50192668	CCAAT enhancer binding protein beta 
+CEP43	ENSG00000213066	protein_coding	6	166999317	167094789	centrosomal protein 43 
+CEP72	ENSG00000112877	protein_coding	5	612340	667168	centrosomal protein 72 
+CIITA	ENSG00000179583	protein_coding	16	10866222	10943021	class II major histocompatibility complex transactivator 
+CNTNAP2	ENSG00000174469	protein_coding	7	146116002	148420998	contactin associated protein 2 
+CPEB4	ENSG00000113742	protein_coding	5	173888349	173961980	cytoplasmic polyadenylation element binding protein 4 
+CREM	ENSG00000095794	protein_coding	10	35126791	35212958	cAMP responsive element modulator 
+CUL1	ENSG00000055130	protein_coding	7	148697914	148801110	cullin 1 
+CUL2	ENSG00000108094	protein_coding	10	35008504	35127006	cullin 2 
+CXCR2	ENSG00000180871	protein_coding	2	218125289	218137251	C-X-C motif chemokine receptor 2 
+CYLD	ENSG00000083799	protein_coding	16	50742050	50801935	CYLD lysine 63 deubiquitinase 
+CYTH1	ENSG00000108669	protein_coding	17	78674048	78782297	cytohesin 1 
+DAP	ENSG00000112977	protein_coding	5	10679230	10761234	death associated protein 
+DDX56	ENSG00000136271	protein_coding	7	44565804	44575051	DEAD-box helicase 56 
+DENND1B	ENSG00000213047	protein_coding	1	197504748	197775696	DENN domain containing 1B 
+DLD	ENSG00000091140	protein_coding	7	107891162	107931730	dihydrolipoamide dehydrogenase 
+DLGAP1	ENSG00000170579	protein_coding	18	3496032	4455307	DLG associated protein 1 
+DNAJC27	ENSG00000115137	protein_coding	2	24943636	24972094	DnaJ heat shock protein family (Hsp40) member C27 
+DNER	ENSG00000187957	protein_coding	2	229357629	229714555	delta/notch like EGF repeat containing 
+DNMT3A	ENSG00000119772	protein_coding	2	25227855	25342590	DNA methyltransferase 3 alpha 
+DUSP5	ENSG00000138166	protein_coding	10	110497907	110511533	dual specificity phosphatase 5 
+EDNRB	ENSG00000136160	protein_coding	13	77895481	77975529	endothelin receptor type B 
+EGR2	ENSG00000122877	protein_coding	10	62811996	62819167	early growth response 2 
+ELP3	ENSG00000134014	protein_coding	8	28089673	28191156	elongator acetyltransferase complex subunit 3 
+ENC1	ENSG00000171617	protein_coding	5	74627406	74641424	ectodermal-neural cortex 1 
+ERAP1	ENSG00000164307	protein_coding	5	96760810	96808100	endoplasmic reticulum aminopeptidase 1 
+ERAP2	ENSG00000164308	protein_coding	5	96875986	96919703	endoplasmic reticulum aminopeptidase 2 
+ERRFI1	ENSG00000116285	protein_coding	1	8004404	8026309	ERBB receptor feedback inhibitor 1 
+ETS1	ENSG00000134954	protein_coding	11	128458761	128587558	ETS proto-oncogene 1, transcription factor 
+FAM118A	ENSG00000100376	protein_coding	22	45308968	45341955	family with sequence similarity 118 member A 
+FAM171B	ENSG00000144369	protein_coding	2	186694060	186765959	family with sequence similarity 171 member B 
+FAM53B	ENSG00000189319	protein_coding	10	124619292	124744378	family with sequence similarity 53 member B 
+FAP	ENSG00000078098	protein_coding	2	162170684	162245151	fibroblast activation protein alpha 
+FAS	ENSG00000026103	protein_coding	10	88953813	89029605	Fas cell surface death receptor 
+FCGR2A	ENSG00000143226	protein_coding	1	161505430	161524013	Fc fragment of IgG receptor IIa 
+FERMT1	ENSG00000101311	protein_coding	20	6074845	6123030	FERM domain containing kindlin 1 
+FIGNL1	ENSG00000132436	protein_coding	7	50444128	50542535	fidgetin like 1 
+FOS	ENSG00000170345	protein_coding	14	75278826	75282230	Fos proto-oncogene, AP-1 transcription factor subunit 
+FOSL2	ENSG00000075426	protein_coding	2	28392448	28417317	FOS like 2, AP-1 transcription factor subunit 
+FOXO1	ENSG00000150907	protein_coding	13	40555667	40666641	forkhead box O1 
+FOXP1	ENSG00000114861	protein_coding	3	70954693	71583978	forkhead box P1 
+FRAS1	ENSG00000138759	protein_coding	4	78057323	78544269	Fraser extracellular matrix complex subunit 1 
+FUT2	ENSG00000176920	protein_coding	19	48695971	48705951	fucosyltransferase 2 
+FZD8	ENSG00000177283	protein_coding	10	35638247	35642296	frizzled class receptor 8 
+GABRA2	ENSG00000151834	protein_coding	4	46243548	46475230	gamma-aminobutyric acid type A receptor subunit alpha2 
+GAL3ST2	ENSG00000154252	protein_coding	2	241776822	241804287	galactose-3-O-sulfotransferase 2 
+GALC	ENSG00000054983	protein_coding	14	87837820	87993665	galactosylceramidase 
+GCKR	ENSG00000084734	protein_coding	2	27496839	27523684	glucokinase regulator 
+GGTLC1	ENSG00000149435	protein_coding	20	23985050	23988779	gamma-glutamyltransferase light chain 1 
+GIPC2	ENSG00000137960	protein_coding	1	77979542	78138444	GIPC PDZ domain containing family member 2 
+GNA12	ENSG00000146535	protein_coding	7	2728105	2844308	G protein subunit alpha 12 
+GPC5	ENSG00000179399	protein_coding	13	91398621	92873682	glypican 5 
+GPR18	ENSG00000125245	protein_coding	13	99254732	99261744	G protein-coupled receptor 18 
+GPR35	ENSG00000178623	protein_coding	2	240605430	240633159	G protein-coupled receptor 35 
+GPR65	ENSG00000140030	protein_coding	14	88005135	88014811	G protein-coupled receptor 65 
+GPX6	ENSG00000198704	protein_coding	6	28503296	28528215	glutathione peroxidase 6 
+GREB1	ENSG00000196208	protein_coding	2	11482341	11642788	growth regulating estrogen receptor binding 1 
+GRIK2	ENSG00000164418	protein_coding	6	100962701	102081622	glutamate ionotropic receptor kainate type subunit 2 
+GRM7	ENSG00000196277	protein_coding	3	6770001	7741533	glutamate metabotropic receptor 7 
+GSDMB	ENSG00000073605	protein_coding	17	39904595	39919854	gasdermin B 
+GSDMC	ENSG00000147697	protein_coding	8	129748196	129786624	gasdermin C 
+HADH	ENSG00000138796	protein_coding	4	107989714	108035241	hydroxyacyl-CoA dehydrogenase 
+HDAC7	ENSG00000061273	protein_coding	12	47782722	47833132	histone deacetylase 7 
+HHEX	ENSG00000152804	protein_coding	10	92689955	92695647	hematopoietically expressed homeobox 
+HORMAD1	ENSG00000143452	protein_coding	1	150698060	150720895	HORMA domain containing 1 
+HORMAD2	ENSG00000176635	protein_coding	22	30080464	30177075	HORMA domain containing 2 
+ID4	ENSG00000172201	protein_coding	6	19837370	19842197	inhibitor of DNA binding 4, HLH protein 
+IFIH1	ENSG00000115267	protein_coding	2	162267074	162318684	interferon induced with helicase C domain 1 
+IFNG	ENSG00000111537	protein_coding	12	68154768	68159740	interferon gamma 
+IFNGR2	ENSG00000159128	protein_coding	21	33403413	33479348	interferon gamma receptor 2 
+IFNLR1	ENSG00000185436	protein_coding	1	24154168	24187959	interferon lambda receptor 1 
+IKZF1	ENSG00000185811	protein_coding	7	50304068	50405101	IKAROS family zinc finger 1 
+IL12B	ENSG00000113302	protein_coding	5	159314780	159330863	interleukin 12B 
+IL12RB2	ENSG00000081985	protein_coding	1	67307364	67398724	interleukin 12 receptor subunit beta 2 
+IL17REL	ENSG00000188263	protein_coding	22	49991811	50012765	interleukin 17 receptor E like 
+IL18R1	ENSG00000115604	protein_coding	2	102311529	102398777	interleukin 18 receptor 1 
+IL18RAP	ENSG00000115607	protein_coding	2	102418689	102452565	interleukin 18 receptor accessory protein 
+IL19	ENSG00000142224	protein_coding	1	206770764	206842981	interleukin 19 
+IL1R1	ENSG00000115594	protein_coding	2	102064544	102179874	interleukin 1 receptor type 1 
+IL1R2	ENSG00000115590	protein_coding	2	101991960	102028544	interleukin 1 receptor type 2 
+IL1RL1	ENSG00000115602	protein_coding	2	102311502	102352037	interleukin 1 receptor like 1 
+IL23R	ENSG00000162594	protein_coding	1	67138907	67259979	interleukin 23 receptor 
+IL27	ENSG00000197272	protein_coding	16	28499362	28512051	interleukin 27 
+IL2RA	ENSG00000134460	protein_coding	10	6010689	6062370	interleukin 2 receptor subunit alpha 
+IL6R	ENSG00000160712	protein_coding	1	154405193	154469450	interleukin 6 receptor 
+IMPG2	ENSG00000081148	protein_coding	3	101222546	101320575	interphotoreceptor matrix proteoglycan 2 
+INAVA	ENSG00000163362	protein_coding	1	200891048	200915742	innate immunity activator 
+IPMK	ENSG00000151151	protein_coding	10	58191517	58267894	inositol polyphosphate multikinase 
+IRF1	ENSG00000125347	protein_coding	5	132440440	132508719	interferon regulatory factor 1 
+IRF5	ENSG00000128604	protein_coding	7	128937457	128950038	interferon regulatory factor 5 
+IRF6	ENSG00000117595	protein_coding	1	209785617	209806175	interferon regulatory factor 6 
+IRF8	ENSG00000140968	protein_coding	16	85899116	85922606	interferon regulatory factor 8 
+IRGM	ENSG00000237693	protein_coding	5	150846521	150900736	immunity related GTPase M 
+IRX2	ENSG00000170561	protein_coding	5	2745845	2751677	iroquois homeobox 2 
+ITGA4	ENSG00000115232	protein_coding	2	181457202	181538940	integrin subunit alpha 4 
+ITGAV	ENSG00000138448	protein_coding	2	186590056	186680901	integrin subunit alpha V 
+ITGB8	ENSG00000105855	protein_coding	7	20330702	20415754	integrin subunit beta 8 
+ITLN1	ENSG00000179914	protein_coding	1	160876540	160885180	intelectin 1 
+JAK2	ENSG00000096968	protein_coding	9	4984390	5129948	Janus kinase 2 
+JAZF1	ENSG00000153814	protein_coding	7	27830573	28180795	JAZF zinc finger 1 
+KCTD12	ENSG00000178695	protein_coding	13	76880175	76886405	potassium channel tetramerization domain containing 12 
+KSR1	ENSG00000141068	protein_coding	17	27456448	27626438	kinase suppressor of ras 1 
+LACC1	ENSG00000179630	protein_coding	13	43879284	43893932	laccase domain containing 1 
+LDB2	ENSG00000169744	protein_coding	4	16501541	16898678	LIM domain binding 2 
+LITAF	ENSG00000189067	protein_coding	16	11547722	11636381	lipopolysaccharide induced TNF factor 
+LNPEP	ENSG00000113441	protein_coding	5	96935394	97037513	leucyl and cystinyl aminopeptidase 
+LRMDA	ENSG00000148655	protein_coding	10	75431624	76560168	leucine rich melanocyte differentiation associated 
+LRRC32	ENSG00000137507	protein_coding	11	76657524	76670747	leucine rich repeat containing 32 
+LRRK2	ENSG00000188906	protein_coding	12	40196744	40369285	leucine rich repeat kinase 2 
+LSP1	ENSG00000130592	protein_coding	11	1850904	1892267	lymphocyte specific protein 1 
+LY75	ENSG00000054219	protein_coding	2	159803355	159904756	lymphocyte antigen 75 
+LY75-CD302	ENSG00000248672	protein_coding	2	159771851	159904710	LY75-CD302 readthrough 
+MACROD2	ENSG00000172264	protein_coding	20	13995369	16053197	mono-ADP ribosylhydrolase 2 
+MAML2	ENSG00000184384	protein_coding	11	95976598	96343195	mastermind like transcriptional coactivator 2 
+MAP1B	ENSG00000131711	protein_coding	5	72107234	72209565	microtubule associated protein 1B 
+MAP3K8	ENSG00000107968	protein_coding	10	30434021	30461833	mitogen-activated protein kinase kinase kinase 8 
+MFHAS1	ENSG00000147324	protein_coding	8	8783354	8893630	multifunctional ROCO family signaling regulator 1 
+MMP11	ENSG00000099953	protein_coding	22	23768226	23784316	matrix metallopeptidase 11 
+MROH2A	ENSG00000185038	protein_coding	2	233775679	233833423	maestro heat like repeat family member 2A 
+NDFIP1	ENSG00000131507	protein_coding	5	142108779	142154440	Nedd4 family interacting protein 1 
+NFATC1	ENSG00000131196	protein_coding	18	79395856	79529325	nuclear factor of activated T cells 1 
+NFKB1	ENSG00000109320	protein_coding	4	102501331	102617302	nuclear factor kappa B subunit 1 
+NFKBIA	ENSG00000100906	protein_coding	14	35401513	35404749	NFKB inhibitor alpha 
+NKD1	ENSG00000140807	protein_coding	16	50548396	50649249	NKD inhibitor of WNT signaling pathway 1 
+NKX2-3	ENSG00000119919	protein_coding	10	99532942	99536524	NK2 homeobox 3 
+NOD2	ENSG00000167207	protein_coding	16	50693588	50734041	nucleotide binding oligomerization domain containing 2 
+NOS2	ENSG00000007171	protein_coding	17	27756766	27800529	nitric oxide synthase 2 
+NR5A2	ENSG00000116833	protein_coding	1	200027614	200177420	nuclear receptor subfamily 5 group A member 2 
+NTM	ENSG00000182667	protein_coding	11	131370478	132336822	neurotrimin 
+NUDT4	ENSG00000173598	protein_coding	12	93377883	93408146	nudix hydrolase 4 
+NXPE1	ENSG00000095110	protein_coding	11	114518934	114559881	neurexophilin and PC-esterase domain family member 1 
+OLIG3	ENSG00000177468	protein_coding	6	137492199	137494394	oligodendrocyte transcription factor 3 
+OSER1	ENSG00000132823	protein_coding	20	44195939	44210771	oxidative stress responsive serine rich 1 
+OSGIN2	ENSG00000164823	protein_coding	8	89901849	89927888	oxidative stress induced growth inhibitor family member 2 
+OSMR	ENSG00000145623	protein_coding	5	38845858	38945596	oncostatin M receptor 
+P4HA2	ENSG00000072682	protein_coding	5	132190147	132295315	prolyl 4-hydroxylase subunit alpha 2 
+PAK1	ENSG00000149269	protein_coding	11	77322017	77474635	p21 (RAC1) activated kinase 1 
+PARK7	ENSG00000116288	protein_coding	1	7954291	7985505	Parkinsonism associated deglycase 
+PDGFA	ENSG00000197461	protein_coding	7	497258	520296	platelet derived growth factor subunit A 
+PDGFB	ENSG00000100311	protein_coding	22	39223359	39244982	platelet derived growth factor subunit B 
+PDK1	ENSG00000152256	protein_coding	2	172555373	172608669	pyruvate dehydrogenase kinase 1 
+PER3	ENSG00000049246	protein_coding	1	7784291	7845177	period circadian regulator 3 
+PEX13	ENSG00000162928	protein_coding	2	61017225	61051990	peroxisomal biogenesis factor 13 
+PFKFB3	ENSG00000170525	protein_coding	10	6144934	6254644	6-phosphofructo-2-kinase/fructose-2,6-biphosphatase 3 
+PITX1	ENSG00000069011	protein_coding	5	135027734	135034813	paired like homeodomain 1 
+PKHD1	ENSG00000170927	protein_coding	6	51615299	52087613	PKHD1 ciliary IPT domain containing fibrocystin/polyductin 
+PLA2G2E	ENSG00000188784	protein_coding	1	19920009	19923617	phospholipase A2 group IIE 
+PLA2G4A	ENSG00000116711	protein_coding	1	186828949	186988981	phospholipase A2 group IVA 
+PLAU	ENSG00000122861	protein_coding	10	73909177	73917496	plasminogen activator, urokinase 
+PLCG2	ENSG00000197943	protein_coding	16	81739097	81962685	phospholipase C gamma 2 
+PLCL1	ENSG00000115896	protein_coding	2	197804593	198572581	phospholipase C like 1 (inactive) 
+PPIF	ENSG00000108179	protein_coding	10	79347469	79355334	peptidylprolyl isomerase F 
+PPP5C	ENSG00000011485	protein_coding	19	46347087	46392981	protein phosphatase 5 catalytic subunit 
+PRDM1	ENSG00000057657	protein_coding	6	105993463	106109939	PR/SET domain 1 
+PRKCB	ENSG00000166501	protein_coding	16	23835983	24220611	protein kinase C beta 
+PROX1	ENSG00000117707	protein_coding	1	213983181	214041510	prospero homeobox 1 
+PTGER3	ENSG00000050628	protein_coding	1	70852353	71047816	prostaglandin E receptor 3 
+PTGER4	ENSG00000171522	protein_coding	5	40679915	40693735	prostaglandin E receptor 4 
+PTGIS	ENSG00000124212	protein_coding	20	49503874	49568137	prostaglandin I2 synthase 
+PTPN2	ENSG00000175354	protein_coding	18	12785478	12929643	protein tyrosine phosphatase non-receptor type 2 
+PTPN22	ENSG00000134242	protein_coding	1	113813811	113871753	protein tyrosine phosphatase non-receptor type 22 
+PTPRC	ENSG00000081237	protein_coding	1	198638457	198757476	protein tyrosine phosphatase receptor type C 
+PUS10	ENSG00000162927	protein_coding	2	60940222	61018259	pseudouridine synthase 10 
+PVALEF	ENSG00000225180	protein_coding	17	81165507	81183166	parvalbumin like EF-hand containing 
+RASGRP1	ENSG00000172575	protein_coding	15	38488103	38565575	RAS guanyl releasing protein 1 
+REL	ENSG00000162924	protein_coding	2	60881521	60931612	REL proto-oncogene, NF-kB subunit 
+REPS1	ENSG00000135597	protein_coding	6	138903493	138988261	RALBP1 associated Eps domain containing 1 
+REXO2	ENSG00000076043	protein_coding	11	114439435	114450279	RNA exonuclease 2 
+RGS14	ENSG00000169220	protein_coding	5	177357924	177372596	regulator of G protein signaling 14 
+RIPK2	ENSG00000104312	protein_coding	8	89757806	89791064	receptor interacting serine/threonine kinase 2 
+RNASET2	ENSG00000026297	protein_coding	6	166922113	166957191	ribonuclease T2 
+RNF186	ENSG00000178828	protein_coding	1	19814029	19815283	ring finger protein 186 
+RNF207	ENSG00000158286	protein_coding	1	6205475	6221299	ring finger protein 207 
+ROBO1	ENSG00000169855	protein_coding	3	78597239	79767998	roundabout guidance receptor 1 
+RORC	ENSG00000143365	protein_coding	1	151806071	151831845	RAR related orphan receptor C 
+RPS6KB1	ENSG00000108443	protein_coding	17	59893046	59950574	ribosomal protein S6 kinase B1 
+RSPO3	ENSG00000146374	protein_coding	6	127118671	127199481	R-spondin 3 
+RUNX3	ENSG00000020633	protein_coding	1	24899511	24965121	RUNX family transcription factor 3 
+S100A7A	ENSG00000184330	protein_coding	1	153416520	153423222	S100 calcium binding protein A7A 
+SATB1	ENSG00000182568	protein_coding	3	18345377	18445588	SATB homeobox 1 
+SATB2	ENSG00000119042	protein_coding	2	199269500	199471266	SATB homeobox 2 
+SBNO2	ENSG00000064932	protein_coding	19	1107637	1174268	strawberry notch homolog 2 
+SH2B3	ENSG00000111252	protein_coding	12	111405923	111451623	SH2B adaptor protein 3 
+SHANK2	ENSG00000162105	protein_coding	11	70467854	71252577	SH3 and multiple ankyrin repeat domains 2 
+SIRPG	ENSG00000089012	protein_coding	20	1629152	1657779	signal regulatory protein gamma 
+SKAP2	ENSG00000005020	protein_coding	7	26667068	26995239	src kinase associated phosphoprotein 2 
+SLAIN2	ENSG00000109171	protein_coding	4	48341529	48426201	SLAIN motif family member 2 
+SLAMF8	ENSG00000158714	protein_coding	1	159826811	159837492	SLAM family member 8 
+SLC22A23	ENSG00000137266	protein_coding	6	3268962	3457050	solute carrier family 22 member 23 
+SLC22A4	ENSG00000197208	protein_coding	5	132294394	132344190	solute carrier family 22 member 4 
+SLC22A5	ENSG00000197375	protein_coding	5	132369710	132395613	solute carrier family 22 member 5 
+SLC26A3	ENSG00000091138	protein_coding	7	107765467	107803225	solute carrier family 26 member 3 
+SLC2A13	ENSG00000151229	protein_coding	12	39755025	40106089	solute carrier family 2 member 13 
+SLC39A11	ENSG00000133195	protein_coding	17	72645949	73092712	solute carrier family 39 member 11 
+SLC39A8	ENSG00000138821	protein_coding	4	102251080	102431258	solute carrier family 39 member 8 
+SLC4A4	ENSG00000080493	protein_coding	4	71062667	71572087	solute carrier family 4 member 4 
+SLC7A10	ENSG00000130876	protein_coding	19	33208664	33225850	solute carrier family 7 member 10 
+SLC9A8	ENSG00000197818	protein_coding	20	49812713	49892242	solute carrier family 9 member A8 
+SLIT3	ENSG00000184347	protein_coding	5	168661733	169301139	slit guidance ligand 3 
+SMAD3	ENSG00000166949	protein_coding	15	67063763	67195173	SMAD family member 3 
+SMURF1	ENSG00000198742	protein_coding	7	99027440	99144108	SMAD specific E3 ubiquitin protein ligase 1 
+SNX20	ENSG00000167208	protein_coding	16	50666300	50681353	sorting nexin 20 
+SOX14	ENSG00000168875	protein_coding	3	137764315	137766334	SRY-box transcription factor 14 
+SOX4	ENSG00000124766	protein_coding	6	21593751	21598619	SRY-box transcription factor 4 
+SP110	ENSG00000135899	protein_coding	2	230165186	230225729	SP110 nuclear body protein 
+SP140	ENSG00000079263	protein_coding	2	230203110	230313215	SP140 nuclear body protein 
+SPATA48	ENSG00000164500	protein_coding	7	50095883	50159256	spermatogenesis associated 48 
+SPATC1	ENSG00000186583	protein_coding	8	144012280	144047114	spermatogenesis and centriole associated 1 
+SPRED2	ENSG00000198369	protein_coding	2	65310851	65432637	sprouty related EVH1 domain containing 2 
+SRP14	ENSG00000140319	protein_coding	15	40035690	40039181	signal recognition particle 14 
+STAT3	ENSG00000168610	protein_coding	17	42313324	42388540	signal transducer and activator of transcription 3 
+STAT4	ENSG00000138378	protein_coding	2	191029576	191151596	signal transducer and activator of transcription 4 
+STC1	ENSG00000159167	protein_coding	8	23841929	23854806	stanniocalcin 1 
+TAB2	ENSG00000055208	protein_coding	6	149218641	149411613	TGF-beta activated kinase 1 (MAP3K7) binding protein 2 
+TAGAP	ENSG00000164691	protein_coding	6	159034468	159045152	T cell activation RhoGTPase activating protein 
+TET2	ENSG00000168769	protein_coding	4	105145875	105279816	tet methylcytosine dioxygenase 2 
+THADA	ENSG00000115970	protein_coding	2	43230851	43596038	THADA armadillo repeat containing 
+THEMIS	ENSG00000172673	protein_coding	6	127708072	127918631	thymocyte selection associated 
+TLR4	ENSG00000136869	protein_coding	9	117704175	117724735	toll like receptor 4 
+TMEM174	ENSG00000164325	protein_coding	5	73173193	73175143	transmembrane protein 174 
+TMPRSS2	ENSG00000184012	protein_coding	21	41464300	41531116	transmembrane serine protease 2 
+TMTC2	ENSG00000179104	protein_coding	12	82686880	83134870	transmembrane O-mannosyltransferase targeting cadherins 2 
+TNFAIP3	ENSG00000118503	protein_coding	6	137867214	137883312	TNF alpha induced protein 3 
+TNFRSF14	ENSG00000157873	protein_coding	1	2555639	2565382	TNF receptor superfamily member 14 
+TNFRSF1A	ENSG00000067182	protein_coding	12	6328757	6342114	TNF receptor superfamily member 1A 
+TNFRSF6B	ENSG00000243509	protein_coding	20	63696652	63698684	TNF receptor superfamily member 6b 
+TNFRSF9	ENSG00000049249	protein_coding	1	7915871	7943165	TNF receptor superfamily member 9 
+TNFSF11	ENSG00000120659	protein_coding	13	42562736	42608013	TNF superfamily member 11 
+TNFSF15	ENSG00000181634	protein_coding	9	114784652	114806039	TNF superfamily member 15 
+TNFSF18	ENSG00000120337	protein_coding	1	173039202	173050941	TNF superfamily member 18 
+TNFSF8	ENSG00000106952	protein_coding	9	114893343	114930595	TNF superfamily member 8 
+TOM1	ENSG00000100284	protein_coding	22	35299275	35347992	target of myb1 membrane trafficking protein 
+TRAF3IP2	ENSG00000056972	protein_coding	6	111555381	111606906	TRAF3 interacting protein 2 
+TRIB1	ENSG00000173334	protein_coding	8	125430358	125438403	tribbles pseudokinase 1 
+TSPAN14	ENSG00000108219	protein_coding	10	80454166	80533124	tetraspanin 14 
+TSPAN5	ENSG00000168785	protein_coding	4	98470367	98658611	tetraspanin 5 
+TUBD1	ENSG00000108423	protein_coding	17	59859479	59892945	tubulin delta 1 
+TYK2	ENSG00000105397	protein_coding	19	10350529	10380572	tyrosine kinase 2 
+UBASH3A	ENSG00000160185	protein_coding	21	42403447	42447684	ubiquitin associated and SH3 domain containing A 
+UBE2D1	ENSG00000072401	protein_coding	10	58334979	58370751	ubiquitin conjugating enzyme E2 D1 
+USH2A	ENSG00000042781	protein_coding	1	215622891	216423448	usherin 
+UVRAG	ENSG00000198382	protein_coding	11	75815210	76144232	UV radiation resistance associated 
+WDR59	ENSG00000103091	protein_coding	16	74871362	75000173	WD repeat domain 59 
+WNT7B	ENSG00000188064	protein_coding	22	45920366	45977162	Wnt family member 7B 
+XYLT1	ENSG00000103489	protein_coding	16	17101769	17470960	xylosyltransferase 1 
+ZBTB20	ENSG00000181722	protein_coding	3	114314500	115147288	zinc finger and BTB domain containing 20 
+ZBTB38	ENSG00000177311	protein_coding	3	141324213	141449792	zinc finger and BTB domain containing 38 
+ZBTB40	ENSG00000184677	protein_coding	1	22428838	22531157	zinc finger and BTB domain containing 40 
+ZBTB7C	ENSG00000184828	protein_coding	18	48026672	48410752	zinc finger and BTB domain containing 7C 
+ZC3H12C	ENSG00000149289	protein_coding	11	110093392	110171841	zinc finger CCCH-type containing 12C 
+ZEB2	ENSG00000169554	protein_coding	2	144364364	144521057	zinc finger E-box binding homeobox 2 
+ZFAT	ENSG00000066827	protein_coding	8	134477788	134713049	zinc finger and AT-hook domain containing 
+ZFP36L1	ENSG00000185650	protein_coding	14	68787660	68796253	ZFP36 ring finger protein like 1 
+ZFP90	ENSG00000184939	protein_coding	16	68530090	68576072	ZFP90 zinc finger protein 
+ZFP91	ENSG00000186660	protein_coding	11	58579063	58621550	ZFP91 zinc finger protein, atypical E3 ubiquitin ligase 
+ZGPAT	ENSG00000197114	protein_coding	20	63707465	63736142	zinc finger CCCH-type and G-patch domain containing 
+ZNF365	ENSG00000138311	protein_coding	10	62374192	62480288	zinc finger protein 365 
+ZNF423	ENSG00000102935	protein_coding	16	49487524	49857919	zinc finger protein 423 
+ZNF831	ENSG00000124203	protein_coding	20	59123381	59259113	zinc finger protein 831 
+ZPBP	ENSG00000042813	protein_coding	7	49850421	50121329	zona pellucida binding protein 
+ZPBP2	ENSG00000186075	protein_coding	17	39868202	39877896	zona pellucida binding protein 2 

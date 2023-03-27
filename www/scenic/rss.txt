@@ -1,0 +1,9 @@
+Myeloid ./www/scenic/Myeloid.rss.txt
+CD4T	./www/scenic/CD4T.rss.txt
+CD8T	./www/scenic/CD8T.rss.txt
+ILC	./www/scenic/ILC.rss.txt
+Endothelial	./www/scenic/Endothelial.rss.txt
+Mesenchymal	./www/scenic/Mesenchymal.rss.txt
+Epithelial	./www/scenic/Epithelial.rss.txt
+Neural	./www/scenic/Neural.rss.txt
+B_Plasma	./www/scenic/B_plasma.rss.txt

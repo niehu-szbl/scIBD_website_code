@@ -1,0 +1,101 @@
+Non-classical monocyte	#00008B
+Classical monocyte	#22B4FB
+Inflammatory monocyte	#529C47
+APOE+ macrophage	#69B4CE
+LYVE1+ macrophage	#9E6BAB
+AREG+ macrophage	#B39180
+Cycling macrophage	#CAA57D
+cDC1	#D6D4EB
+cDC2	#E066FF
+pDC	#EACF68
+LAMP3+ DC	#F3746C
+Mast	#F7DDD4
+Megakaryocyte	#FFF59B
+CD4+ Tn	#009B9F
+CD4+ blood-Tcm	#3955A1
+CD4+ Temra	#6495ED
+CD4+ tissue-Tcm	#8CB890
+CD4+ Trm	#B9D0D8
+CD4+ Th17	#D14C4C
+CD4+ activated T	#DEEAB1
+CD4+ Tfh	#ECAFCF
+CD4+ Treg	#F4ACBD
+CD8+ Tn	#FFE4B5
+CD8+ Tcm	#228B22
+CD8+ Teff	#63B472
+CD8+ Tem	#8900C1
+CD8+ Trm	#BB4A94
+CD8+ IEL	#D5E7F7
+CD8+ Tc17	#E64B35
+CD8+ MAIT	#F39800
+CD8+ activated T	#FD5312
+NCR- ILC3	#D194A3FF
+NCR+ ILC3	#A8EFE9FF
+CD16+ NK	#B03060FF
+CD56+ SELL_high NK	#37A2F1FF
+CD56+ SELL_low NK	#DD8DB0FF
+IgA plasma	#D9939BFF
+IgG plasma	#F4B0A5FF
+IgA+IgG+ plasma	#B8E1CCFF
+IgA-IgG- plasma	#EFE695FF
+Pro-B	#666666FF
+Naive B	#E18772FF
+Memory B	#9F82A4FF
+GC B	#538BE9FF
+Cycling GC B	#BE8BBBFF
+Cycling plasma	#E586AAFF
+Goblet	#DA949CFF
+Tuft	#F6C985FF
+Paneth	#EDCFB3FF
+M-like cell	#B2D1D3FF
+Enteroendocrine	#E3CFE7FF
+BEST4+ epithelial	#CBDF9AFF
+DUOX2+ epithelial	#4AAD62FF
+Pediatric colonocyte	#C35338FF
+Adult colonocyte	#E56A79FF
+Enterocyte	#C46DA0FF
+TA	#4A6DCBFF
+Cycling TA	#66CEF6FF
+Fetal progenitor	#A2BFE1FF
+Fetal cycling TA	#D7A9CBFF
+Fetal colonocyte	#E67CC3FF
+Fetal enterocyte	#D8979BFF
+Fetal stromal 1	#E4C994FF
+Stromal 1	#F8BFAFFF
+Fetal stromal 2	#D1BABAFF
+Stromal 2	#C4EBF0FF
+Stromal 3	#EBDBE4FF
+Transitional stromal	#D6E19CFF
+FDC	#A79388FF
+mLTo	#4F7392FF
+Inflammatory fibroblast	#EAA944FF
+Reticular fibroblast	#FB6571FF
+Cycling stromal	#A56DADFF
+Myofibroblast 1	#7673AEFF
+Myofibroblast 2	#1FC6B2FF
+SMC 1	#94CCC3FF
+SMC 2	#B4AEC6FF
+Cycling SMC	#EEB3EAFF
+Immature pericyte	#C199E0FF
+Mature pericyte	#D7B399FF
+Mesoderm 1	#B6CBD9FF
+Mesoderm 2	#B3DE69FF
+Mesothelium	#C71585FF
+Adult arterial capillary	#DC4AA8FF
+Adult venous EC (SELE+)	#80B1D3FF
+Adult venous EC (C7+)	#D0A5F8FF
+Adult arterial EC	#F7BE98FF
+Cycling EC	#D7D2B4FF
+Fetal arterial EC	#CBEBF6FF
+Fetal venous capillary	#F8F4A8FF
+LEC	#74517BFF
+Neuronal/Branch A	#EAA86CFF
+Neuronal/Branch B	#928AD3FF
+Neuroblast	#277AB6FF
+Cycling ENCC/glia	#A0D0DCFF
+ENCC/glia progenitor	#DC95BFFF
+Differentiating glia	#C199E0
+Fetal glia 1	#D7A9CB
+Fetal glia 2	#E67CC3
+Fetal glia 3	#E586AA
+Adult glia	#DD8DB0
