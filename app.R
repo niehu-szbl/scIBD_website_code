@@ -105,6 +105,11 @@ if(T){
       project_info = read_xlsx("./www/meta/projects_IBD.xlsx",sheet=1) %>% as.data.frame()
     }
     
+    # load study track info
+    if(T){
+      study_tracking_info = read_xlsx("./www/meta/study_tracking_info.xlsx",sheet=1) %>% as.data.frame()
+    }
+    
     # load drugs, targets, clinical trails for IBD
     if(T){
       # load data, FDA approved drugs
@@ -200,6 +205,12 @@ if(T){
       markers_df = read.table("./www/gsea/scIBD_markers.downsampled.txt", header = T, stringsAsFactors = F, sep = "\t")
       expressed_genes = read.table("./www/gsea/scIBD.expressed_genes.txt", header = F, stringsAsFactors = F, sep = "\t")
       expressed_genes = expressed_genes$V1
+    }
+    
+    # load markdown files
+    if(T){
+      manual_page_markdown = readLines("./www/document/scIBD_documentation.md", warn = FALSE)
+      Case_study_markdown = readLines("./www/document/scIBD_case_study.md", warn = FALSE)
     }
   }
   
@@ -856,7 +867,7 @@ if(T){
                               inputId = "GEX_comparison_panel.minor_cluster",
                               label = "Minor cluster",
                               choices = all_cluster_list,
-                              selected = all_cluster_list[["Myeloid"]],
+                              selected = unlist(all_cluster_list),
                               multiple = TRUE,
                               options = list(`actions-box` = TRUE, 
                                              `live-search` = TRUE, 
@@ -1654,23 +1665,18 @@ if(T){
     # Shiny UI: manual page
     if(T){
       Manual_page = fluidRow(
-        tags$div( style = "margin-left: 3%; margin-right: 3%;",
-                  tags$h4("Guidance for scIBD is shown in the following pdf. \ 
-                                You can read it online or download it if needed."),
-                  br()),
-        tags$iframe(style="margin-left: 10%; margin-right: 10%; height:700px; 
-                                  width:80%; scrolling=yes", align = 'center', 
-                    src = "document/scIBD_documentation.pdf"),
-        tags$br(),
-        tags$br(),
-        tags$div( style = "margin-left: 3%; margin-right: 3%;",
-                  tags$h4("Examples to demonstrate the generality of scIBD. \ 
-                                You can read it online or download it if needed.")),
-        tags$br(),
-        tags$br(),
-        tags$iframe(style="margin-left: 10%; margin-right: 10%; height:700px; 
-                    width:80%; scrolling=yes", align = 'center', 
-                    src = "document/Examples to demonstrate the generality of scIBD.pdf"),
+        tags$div( style = "margin-left: 0%; margin-right: 0%; background-color: white;", 
+                  tags$div(style = "margin-left: 10%; margin-right: 20%; font-size:18px;", markdown(manual_page_markdown))
+                )
+      )
+    }
+    
+    # Shiny UI: case study page
+    if(T){
+      Case_study_page = fluidRow(
+        tags$div( style = "margin-left: 0%; margin-right: 0%; background-color: white;", 
+                  tags$div(style = "margin-left: 10%; margin-right: 20%; font-size:18px;", markdown(Case_study_markdown))
+        )
       )
     }
     
@@ -1681,6 +1687,15 @@ if(T){
                   tags$h4("Browse references"),
                   DT::DTOutput("projects_info_table")
       ))
+    }
+    
+    # Shiny UI: study tracking
+    if(T){
+      Study_tracking_page = fluidRow(
+        tags$div( style = "margin-left: 3%; margin-right: 3%",
+                  tags$h4("Browse the recently published datasets studying IBD"),
+                  DT::DTOutput("study_tracking_table")
+        ))
     }
     
     # Shiny UI: download page
@@ -1766,12 +1781,12 @@ ui <- navbarPage(id="nav", theme = shinytheme("flatly"), collapsible = FALSE, wi
                           dashboardHeader(disable = T),
                           dashboardSidebar(
                             sidebarMenu(
-                              menuItem(text = "Gene Expression Profile", tabName = "GEX_profile", selected = T),
-                              menuItem(text = "Regulon Activity Profile", tabName = "GRN_profile"),
-                              menuItem(text = "Gene Expression Comparison", tabName = "GEX_comparison"),
-                              menuItem(text = "Regulon Activity Comparison", tabName = "GRN_comparison"),
-                              menuItem(text = "Cellular composition", tabName = "cellular_composition"),
-                              menuItem(text = "Gene Enrichment Analysis", tabName = "gsea")
+                              menuItem(text = "Gene Expression Profile", tabName = "GEX_profile", selected = NULL),
+                              menuItem(text = "Regulon Activity Profile", tabName = "GRN_profile", selected = NULL),
+                              menuItem(text = "Gene Expression Comparison", tabName = "GEX_comparison", selected = NULL),
+                              menuItem(text = "Regulon Activity Comparison", tabName = "GRN_comparison", selected = NULL),
+                              menuItem(text = "Cellular composition", tabName = "cellular_composition", selected = NULL),
+                              menuItem(text = "Gene Enrichment Analysis", tabName = "gsea", selected = NULL)
                             )),
                         dashboardBody(
                           tags$head(tags$style(HTML('.skin-blue .main-sidebar .sidebar .sidebar-menu .active a{background-color: #3079AE; color: #FFFFFF;}'))),
@@ -1799,11 +1814,13 @@ ui <- navbarPage(id="nav", theme = shinytheme("flatly"), collapsible = FALSE, wi
                          dashboardHeader(disable = T),
                          dashboardSidebar(
                            sidebarMenu(
-                             menuItem(text = "Current Therapy Strategy", tabName = "IBD_targets", selected = T),
-                             menuItem(text = "GWAS-implicated Risk Genes", tabName = "IBD_risk_genes"),
-                             menuItem(text = "Manual", tabName = "Manual"),
-                             menuItem(text = "Reference", tabName = "Reference"),
-                             menuItem(text = "Download", tabName = "Download")
+                             menuItem(text = "Current Therapy Strategy", tabName = "IBD_targets", selected = TRUE),
+                             menuItem(text = "GWAS-implicated Risk Genes", tabName = "IBD_risk_genes", selected = NULL),
+                             menuItem(text = "Manual", tabName = "Manual", selected = NULL),
+                             menuItem(text = "Case study", tabName = "Case_study", selected = NULL),
+                             menuItem(text = "Reference", tabName = "Reference", selected = NULL),
+                             menuItem(text = "Download", tabName = "Download", selected = NULL),
+                             menuItem(text = "Study tracking", tabName = "Study_tracking", selected = NULL)
                            )),
                          dashboardBody(
                            tags$head(tags$style(HTML('.skin-blue .main-sidebar .sidebar .sidebar-menu .active a{background-color: #3079AE; color: #FFFFFF;}'))),
@@ -1814,15 +1831,17 @@ ui <- navbarPage(id="nav", theme = shinytheme("flatly"), collapsible = FALSE, wi
                                           font-weight: bold;
                                           font-size: 14px;}'))),
                            tags$head(tags$style(HTML(".content-wrapper, .right-side{
-                                                        background-color: #f3f6f4;}"))),
+                                                        background-color: #FFFFFF;}"))),
                            
                            ## content
                            tabItems(
                              tabItem(tabName = "IBD_targets", IBD_targets_panel),
                              tabItem(tabName = "IBD_risk_genes", IBD_risk_genes_panel),
                              tabItem(tabName = "Manual", Manual_page),
+                             tabItem(tabName = "Case_study", Case_study_page),
                              tabItem(tabName = "Reference", Reference_page),
-                             tabItem(tabName = "Download", Download_page)
+                             tabItem(tabName = "Download", Download_page),
+                             tabItem(tabName = "Study_tracking", Study_tracking_page)
                            )))),
             # Help page----
              tabPanel("Help",
@@ -1879,10 +1898,10 @@ ui <- navbarPage(id="nav", theme = shinytheme("flatly"), collapsible = FALSE, wi
 )
 
 
+
 # shiny server----
 server <- function(input, output, session) {
-
-  print(session)
+  
   # Gene expression panel
   if(T){
     
@@ -2462,10 +2481,10 @@ server <- function(input, output, session) {
                   filter = 'top', escape = FALSE, rownames = FALSE, options = list(pageLength = 5)) %>% formatRound(3:7, 4))
     }
   }
-
+  
   # Gene expression comparison
   if(T){
-      
+    
     # initialize
     if(T){
       GEX_comparison_panel.genes = reactiveValues(genes = c("CPA3","TPSAB1"))
@@ -2501,13 +2520,13 @@ server <- function(input, output, session) {
       GEX_comparison_panel.subsets_data = reactive({
         # get data
         selected.adata_obs = adata_obs %>% filter(major_cluster %in% GEX_comparison_panel.major_cluster$major_cluster &
-                                                minor_cluster %in% GEX_comparison_panel.minor_cluster$minor_cluster &
-                                                stage %in% GEX_comparison_panel.stage$stage &
-                                                disease %in% GEX_comparison_panel.disease$disease &
-                                                tissue %in% GEX_comparison_panel.tissue$tissue &
-                                                tissue.sub %in% GEX_comparison_panel.tissue.sub$tissue.sub &
-                                                study %in% GEX_comparison_panel.study$study &
-                                                sample %in% GEX_comparison_panel.sample$sample)
+                                                    minor_cluster %in% GEX_comparison_panel.minor_cluster$minor_cluster &
+                                                    stage %in% GEX_comparison_panel.stage$stage &
+                                                    disease %in% GEX_comparison_panel.disease$disease &
+                                                    tissue %in% GEX_comparison_panel.tissue$tissue &
+                                                    tissue.sub %in% GEX_comparison_panel.tissue.sub$tissue.sub &
+                                                    study %in% GEX_comparison_panel.study$study &
+                                                    sample %in% GEX_comparison_panel.sample$sample)
         selected.adata_obs$minor_cluster = droplevels(selected.adata_obs$minor_cluster)
         list(selected.adata_obs = selected.adata_obs)
       })
@@ -2517,7 +2536,7 @@ server <- function(input, output, session) {
     # get average expression
     if(T){
       GEX_comparison_panel.subsets_data.downsample = reactive({
-
+        
         # down sample
         if(GEX_comparison_panel.downsampled_cell_num$num != Inf){
           selected_cells = tibble::rownames_to_column(GEX_comparison_panel.subsets_data()$selected.adata_obs, "barcode") %>%
@@ -2625,31 +2644,31 @@ server <- function(input, output, session) {
           print(p)
           
         }else if(input$GEX_comparison_panel.Embedding_used == "tSNE"){
-            
-            # plot tsne
-            p = ggplot(GEX_comparison_panel.subsets_scIBD()$result[,c("gTSNE_1","gTSNE_2","avg_exp")], aes(x = gTSNE_1, y = gTSNE_2)) +
-              geom_point(aes(color = avg_exp), size = dot.size) + 
-              scale_colour_gradientn("Exp", colors = dot.color) + 
-              xlab("tSNE_1") + 
-              ylab("tSNE_2") + 
-              xlim( min(adata_obs$gTSNE_1), max(adata_obs$gTSNE_2) ) + 
-              ylim( min(adata_obs$gTSNE_1), max(adata_obs$gTSNE_2) ) + 
-              theme_bw() +
-              theme(axis.text.x = element_text(size = 10, family = "Times",color = "black"),
-                    axis.text.y = element_text(size=10, family = "Times", color = "black"),
-                    axis.title.x = element_text(size=12, family="Times", color = "black"),
-                    axis.title.y = element_text(size=12, family="Times",  color = "black"),     
-                    panel.grid.major = element_blank(),
-                    panel.grid.minor = element_blank(),
-                    panel.background = element_rect(fill='transparent', color='white'),
-                    panel.border = element_blank(),
-                    legend.position = "right") + 
-              theme(axis.line = element_line(color = "black"))
-            
-            GEX_comparison_panel.Scanpy_embedding.plot_exp.plot$plot = p
-            print(p)
-          }
-        })
+          
+          # plot tsne
+          p = ggplot(GEX_comparison_panel.subsets_scIBD()$result[,c("gTSNE_1","gTSNE_2","avg_exp")], aes(x = gTSNE_1, y = gTSNE_2)) +
+            geom_point(aes(color = avg_exp), size = dot.size) + 
+            scale_colour_gradientn("Exp", colors = dot.color) + 
+            xlab("tSNE_1") + 
+            ylab("tSNE_2") + 
+            xlim( min(adata_obs$gTSNE_1), max(adata_obs$gTSNE_2) ) + 
+            ylim( min(adata_obs$gTSNE_1), max(adata_obs$gTSNE_2) ) + 
+            theme_bw() +
+            theme(axis.text.x = element_text(size = 10, family = "Times",color = "black"),
+                  axis.text.y = element_text(size=10, family = "Times", color = "black"),
+                  axis.title.x = element_text(size=12, family="Times", color = "black"),
+                  axis.title.y = element_text(size=12, family="Times",  color = "black"),     
+                  panel.grid.major = element_blank(),
+                  panel.grid.minor = element_blank(),
+                  panel.background = element_rect(fill='transparent', color='white'),
+                  panel.border = element_blank(),
+                  legend.position = "right") + 
+            theme(axis.line = element_line(color = "black"))
+          
+          GEX_comparison_panel.Scanpy_embedding.plot_exp.plot$plot = p
+          print(p)
+        }
+      })
       
       # download
       output$GEX_comparison_panel.Scanpy_embedding.plot_exp.download_pdf <- downloadHandler(
@@ -2716,7 +2735,7 @@ server <- function(input, output, session) {
         }else if(input$GEX_comparison_panel.Embedding_used == "tSNE"){
           
           # plot tsne
-        p = ggplot(GEX_comparison_panel.subsets_scIBD()$result, aes(x = gTSNE_1, y = gTSNE_2, color = major_cluster)) +
+          p = ggplot(GEX_comparison_panel.subsets_scIBD()$result, aes(x = gTSNE_1, y = gTSNE_2, color = major_cluster)) +
             geom_point(size = dot.size) + 
             scale_color_manual("Label", values = major_cluster_color ) +
             xlab("tSNE_1") +
@@ -2886,7 +2905,7 @@ server <- function(input, output, session) {
         }
       )
     }
-      
+    
     # plot gene expression of selected cells
     # violin plot
     # group by major/minor/stage/disease/tissue
@@ -2927,29 +2946,29 @@ server <- function(input, output, session) {
         print(p)})
       
       # download
-        output$GEX_comparison_panel.Violin_plot.download_pdf <- downloadHandler(
-          filename = function(){
-            if(input$GEX_comparison_panel.Violin_plot.file_type == 'pdf'){
-              paste0('GEX_comparison_panel.Violin_plot_', stringi::stri_rand_strings(1, 10), '.pdf')
-            }else if(input$GEX_comparison_panel.Violin_plot.file_type == 'jpeg'){
-              paste0('GEX_comparison_panel.Violin_plot_', stringi::stri_rand_strings(1, 10), '.jpeg')
-            }
-          },
-          content = function(file){
-            if(input$GEX_comparison_panel.Violin_plot.file_type == 'pdf'){
-              pdf(file, width = input$GEX_comparison_panel.Violin_plot.width, height = input$GEX_comparison_panel.Violin_plot.height)
-              plot(GEX_comparison_panel.Violin_plot.plot$plot)
-              dev.off()
-            }else if(input$GEX_comparison_panel.Violin_plot.file_type == 'jpeg'){
-              jpeg(file, width = input$GEX_comparison_panel.Violin_plot.width,
-                   height = input$GEX_comparison_panel.Violin_plot.height,
-                   units = 'in', res = 300)
-              plot(GEX_comparison_panel.Violin_plot.plot$plot)
-              dev.off()
-            }
+      output$GEX_comparison_panel.Violin_plot.download_pdf <- downloadHandler(
+        filename = function(){
+          if(input$GEX_comparison_panel.Violin_plot.file_type == 'pdf'){
+            paste0('GEX_comparison_panel.Violin_plot_', stringi::stri_rand_strings(1, 10), '.pdf')
+          }else if(input$GEX_comparison_panel.Violin_plot.file_type == 'jpeg'){
+            paste0('GEX_comparison_panel.Violin_plot_', stringi::stri_rand_strings(1, 10), '.jpeg')
           }
-        )
-      }
+        },
+        content = function(file){
+          if(input$GEX_comparison_panel.Violin_plot.file_type == 'pdf'){
+            pdf(file, width = input$GEX_comparison_panel.Violin_plot.width, height = input$GEX_comparison_panel.Violin_plot.height)
+            plot(GEX_comparison_panel.Violin_plot.plot$plot)
+            dev.off()
+          }else if(input$GEX_comparison_panel.Violin_plot.file_type == 'jpeg'){
+            jpeg(file, width = input$GEX_comparison_panel.Violin_plot.width,
+                 height = input$GEX_comparison_panel.Violin_plot.height,
+                 units = 'in', res = 300)
+            plot(GEX_comparison_panel.Violin_plot.plot$plot)
+            dev.off()
+          }
+        }
+      )
+    }
     
     # plot cell number of selected cells
     # bar plot
@@ -3128,22 +3147,32 @@ server <- function(input, output, session) {
         colnames(selected_cells) = c("group1","group2")
         
         # count, group by subset and group
-        cts = selected_cells %>% group_by(group1, group2) %>% summarise(count = n())
+        cell_number_count = selected_cells %>% 
+          group_by(group1, group2) %>% 
+          summarise(count = n())
         
-        # bar plot
+        # count, group by subset
+        cell_number_total = selected_cells %>% 
+          group_by(group1) %>%
+          summarise(count = n())
+        
+        # calculate percentage of cells
+        cell_number_pct = merge(cell_number_count, cell_number_total, by = "group1")
+        cell_number_pct$pct = cell_number_pct$count.x / cell_number_pct$count.y
+        
+        # barplot
         if(input$GEX_comparison_panel.Bar_plot2.type == 'Number'){
           if(input$GEX_comparison_panel.Bar_plot2.faceting_group == input$GEX_comparison_panel.groupby.1){
-            
-            p = ggplot( cts, aes( x = group2, y = count, fill = group2)) + 
+            p = ggplot( cell_number_count, aes( x = group2, y = count, fill = group2)) + 
               facet_grid(cols = vars(group1)) +
               geom_bar(stat = "identity") + 
               ylab("Number of cells") + 
               xlab("")+
               theme_bw() + 
-              theme(axis.text.x = element_text(size = 10,  color = "black", angle = 90, vjust = 0.5, hjust = 1, family = "Times"),
-                    axis.text.y = element_text(size=10,  color = "black", family = "Times"),
-                    axis.title.x = element_text(size=12, color = "black", family = "Times"),
-                    axis.title.y = element_text(size=12,  color = "black", family = "Times"),     
+              theme(axis.text.x = element_text(size = 10,  color = "black", angle = 90, vjust = 0.5, hjust = 1),
+                    axis.text.y = element_text(size=10,  color = "black"),
+                    axis.title.x = element_text(size=12, color = "black"),
+                    axis.title.y = element_text(size=12,  color = "black"),     
                     panel.grid.major = element_blank(),
                     panel.grid.minor = element_blank(),
                     panel.background = element_rect(fill='transparent', color='white'),
@@ -3153,17 +3182,16 @@ server <- function(input, output, session) {
                     legend.position = "none")
           }
           else if(input$GEX_comparison_panel.Bar_plot2.faceting_group == input$GEX_comparison_panel.groupby.2){
-            
-            p = ggplot( cts, aes( x = group1, y = count, fill = group1)) + 
+            p = ggplot( cell_number_count, aes( x = group1, y = count, fill = group1)) + 
               facet_grid(cols = vars(group2)) +
               geom_bar(stat = "identity") + 
               ylab("Number of cells") + 
               xlab("")+
               theme_bw() + 
-              theme(axis.text.x = element_text(size = 10,  color = "black", angle = 90, vjust = 0.5, hjust = 1, family = "Times"),
-                    axis.text.y = element_text(size=10,  color = "black", family = "Times"),
-                    axis.title.x = element_text(size=12, color = "black", family = "Times"),
-                    axis.title.y = element_text(size=12,  color = "black", family = "Times"),     
+              theme(axis.text.x = element_text(size = 10,  color = "black", angle = 90, vjust = 0.5, hjust = 1),
+                    axis.text.y = element_text(size=10,  color = "black"),
+                    axis.title.x = element_text(size=12, color = "black"),
+                    axis.title.y = element_text(size=12,  color = "black"),     
                     panel.grid.major = element_blank(),
                     panel.grid.minor = element_blank(),
                     panel.background = element_rect(fill='transparent', color='white'),
@@ -3174,24 +3202,16 @@ server <- function(input, output, session) {
           }
         }else if(input$GEX_comparison_panel.Bar_plot2.type == 'Percentage'){
           if(input$GEX_comparison_panel.Bar_plot2.faceting_group == input$GEX_comparison_panel.groupby.1){
-            
-            # count, group by subset
-            total = selected_cells %>% group_by(group1) %>% summarise(total = n())
-            
-            # calculate percentage of cells
-            result = dplyr::left_join(cts, total, by = "group1")
-            result$pct = cts$count / total$total
-            
-            p = ggplot( result, aes( x = group2, y = pct, fill = group2)) + 
+            p = ggplot( cell_number_pct, aes( x = group2, y = pct, fill = group2)) + 
               facet_grid(cols = vars(group1)) +
               geom_bar(stat = "identity") + 
               ylab("Percentage of cells") + 
               xlab("")+
               theme_bw() + 
-              theme(axis.text.x = element_text(size = 10,  color = "black", angle = 90, vjust = 0.5, hjust = 1, family = "Times"),
-                    axis.text.y = element_text(size=10,  color = "black", family = "Times"),
-                    axis.title.x = element_text(size=12, color = "black", family = "Times"),
-                    axis.title.y = element_text(size=12,  color = "black", family = "Times"),     
+              theme(axis.text.x = element_text(size = 10,  color = "black", angle = 90, vjust = 0.5, hjust = 1),
+                    axis.text.y = element_text(size=10,  color = "black"),
+                    axis.title.x = element_text(size=12, color = "black"),
+                    axis.title.y = element_text(size=12,  color = "black"),     
                     panel.grid.major = element_blank(),
                     panel.grid.minor = element_blank(),
                     panel.background = element_rect(fill='transparent', color='white'),
@@ -3200,15 +3220,7 @@ server <- function(input, output, session) {
               theme(axis.line = element_line(color = "black"),
                     legend.position = "none")
           }else if(input$GEX_comparison_panel.Bar_plot2.faceting_group == input$GEX_comparison_panel.groupby.2){
-            
-            # count, group by subset
-            total = selected_cells %>% group_by(group2) %>% summarise(total = n())
-            
-            # calculate percentage of cells
-            result = dplyr::left_join(cts, total, by = "group2")
-            result$pct = cts$count / total$total
-            
-            p = ggplot( result, aes( x = group1, y = pct, fill = group1)) + 
+            p = ggplot( cell_number_pct, aes( x = group1, y = pct, fill = group1)) + 
               facet_grid(cols = vars(group2)) +
               geom_bar(stat = "identity") + 
               ylab("Percentage of cells") + 
@@ -3297,7 +3309,7 @@ server <- function(input, output, session) {
         )
       }, ignoreInit = TRUE)
     }
-  
+    
     # get cells
     if(T){
       GRN_profile_panel.cells = reactive({
@@ -3467,7 +3479,7 @@ server <- function(input, output, session) {
         scenic_links$value = 10
         names(scenic_nodes)[1] = "name"
         scenic_nodes$id = NULL
-
+        
         ## return
         list(scenic_nodes = scenic_nodes, 
              scenic_links = scenic_links,
@@ -3970,7 +3982,7 @@ server <- function(input, output, session) {
   
   # Regulon activity comparison
   if(T){
-
+    
     # initialize
     if(T){
       GRN_comparison_panel.major_cluster = reactiveValues(major_cluster = "Myeloid")
@@ -4017,7 +4029,7 @@ server <- function(input, output, session) {
         }
       })
     }
-  
+    
     # observe submit
     if(T){
       observeEvent(input$GRN_comparison_panel.Submit,{
@@ -4269,14 +4281,14 @@ server <- function(input, output, session) {
       output$GRN_comparison_panel.diff_regulon.healthy_CD.tbl <- renderDT(
         datatable(diff_regulon_data[[input$GRN_comparison_panel.major_cluster]][[2]],
                   filter = "top", escape = FALSE, rownames = FALSE, options = list(pageLength = 5)) %>% formatRound(2:6, 6)
-        )
+      )
     }
     
   }
   
   # Cellular composition
   if(T){
-
+    
     # initialize
     if(T){
       # default selection
@@ -4342,18 +4354,18 @@ server <- function(input, output, session) {
         minor_pct = left_join(minor_count, total, by = "sample") %>% 
           mutate(percentage = count/total) %>% as.data.frame()
         
-       # plot
-       p = ggplot(minor_pct, aes(x = sample, y = percentage, fill = minor_cluster)) + 
+        # plot
+        p = ggplot(minor_pct, aes(x = sample, y = percentage, fill = minor_cluster)) + 
           geom_histogram(stat = "identity") +
           ylim(0,1) + 
           xlab("") + 
           ylab("Percentage") +
           theme_classic() + 
           theme(axis.text.x =  element_text(size = 10, color = "black", angle = 90, vjust = 1, hjust = 1))
-       ggplotly(p)
+        ggplotly(p)
       })
     }
-}
+  }
   
   # Gene set enrichment analysis
   if(T){
@@ -4527,7 +4539,7 @@ server <- function(input, output, session) {
           detail = detail[,c("Trial acronym","Clinical trail","Stage","Year","Reference","More")]
           # display data
           renderDT(detail, escape = FALSE, rownames = FALSE,
-                              options = list(ordering=TRUE))},
+                   options = list(ordering=TRUE))},
           title = paste0("Clinical trails for ", input$select_button[1]),
           size = "l",
           footer = modalButton("Close")))
@@ -4540,7 +4552,7 @@ server <- function(input, output, session) {
           detail = data.frame(t(therapy_panel.FDA_approved_drugs_detail[input$select_button_more[1],1:(ncol(therapy_panel.FDA_approved_drugs_detail)-1)]))
           colnames(detail) = c("Value")
           renderDT(detail, escape = FALSE, rownames = TRUE,
-                              options = list(ordering=FALSE))},
+                   options = list(ordering=FALSE))},
           title = paste0("Detailed clinical information"), 
           size = "l",
           footer = actionButton("restoreModal",label = "Close")))
@@ -4554,7 +4566,7 @@ server <- function(input, output, session) {
           detail = detail[,c("Trial acronym","Clinical trail","Stage","Year","Reference","More")]
           # display data
           renderDT(detail, escape = FALSE, rownames = FALSE, 
-                              options = list(ordering=TRUE))},
+                   options = list(ordering=TRUE))},
           title = paste0("Clinical trails for ", input$select_button[1]),
           size = "l",
           footer = modalButton("Close")))
@@ -4572,8 +4584,8 @@ server <- function(input, output, session) {
       # from GWAS research
       output$ibd_gwas_tbl = renderDT(
         DT::datatable(ibd_gwas_data, 
-                  filter = "top", escape = FALSE, rownames = FALSE,
-                  options = list(pageLength = 5, deferRender = TRUE)))
+                      filter = "top", escape = FALSE, rownames = FALSE,
+                      options = list(pageLength = 5, deferRender = TRUE)))
       
       # adult
       output$adult_ibd_risk_genes_tbl = renderDT(
@@ -4591,6 +4603,13 @@ server <- function(input, output, session) {
     if(T){
       output$projects_info_table = renderDT(
         DT::datatable(project_info, escape = FALSE, rownames = FALSE,
+                      options = list(pageLength = 5, deferRender = TRUE)))
+    }
+    
+    # Study tracking panel
+    if(T){
+      output$study_tracking_table = renderDT(
+        DT::datatable(study_tracking_info, escape = FALSE, rownames = FALSE,
                       options = list(pageLength = 5, deferRender = TRUE)))
     }
   }
