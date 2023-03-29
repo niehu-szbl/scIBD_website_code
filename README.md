@@ -2,8 +2,8 @@
 
 This is the repository of scIBD.
 
-- [scIBD homepage](http://scibd.cn){:target="_blank"}.
-- [Manual](http://scibd.cn){:target="_blank"}, the manual is accessible in the scIBD website.
+- [scIBD homepage](http://scibd.cn).
+- [Manual](http://scibd.cn), the manual is accessible in the scIBD website.
 
 # Run scIBD locally
 
