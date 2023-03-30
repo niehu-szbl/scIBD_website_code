@@ -31,4 +31,5 @@ To run scIBD locally, follow the bellow instructions:
         ```
 
     2. In browser, go to 127.0.0.1:3839 to access this application.
+    
 Note: These instructions are tested on Ubuntu 20.04.6 LTS.
