@@ -7,7 +7,7 @@ This is the repository of scIBD.
 
 # Run scIBD locally
 
-If you want to run scIBD locally, follow the following instructions:
+To run scIBD locally, follow the bellow instructions:
 
 1. Install R, Rstudio and shiny-server on local computer.
 2. Download the source code and data from <https://github.com/niehu-szbl/scIBD_website_code.git>
@@ -31,3 +31,4 @@ If you want to run scIBD locally, follow the following instructions:
         ```
 
     2. In browser, go to 127.0.0.1:3839 to access this application.
+Note: These instructions are tested on Ubuntu 20.04.6 LTS.
